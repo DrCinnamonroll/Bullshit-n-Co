@@ -692,3 +692,9 @@ Entries:
         details.
   id: 87
   time: '2026-02-26T04:25:19.0000000+00:00'
+- author: JFerrix
+  changes:
+    - type: Fix
+      message: Fixed resomi head marking
+  id: 88
+  time: '2026-02-26T15:26:30.0000000+00:00'
