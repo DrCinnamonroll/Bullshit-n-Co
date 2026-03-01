@@ -130,6 +130,11 @@
     jumpsuit: ClothingUniformSchoolGakuranBlack
 
 - type: loadout
+  id: UniformSchoolgirlRed
+  equipment:
+    jumpsuit: UniformSchoolgirlRed
+
+- type: loadout
   id: UniformSchoolgirlBlack
   equipment:
     jumpsuit: UniformSchoolgirlBlack
@@ -622,41 +627,48 @@
   equipment:
     neck: ClothingNeckNeckerchief
 
+# trinkets
 - type: loadout
   id: GuitarInstrument
   storage:
     back:
     - AcousticGuitarInstrument
+  groupBy: "instrument"
 
 - type: loadout
   id: BassGuitarInstrument
   storage:
     back:
     - BassGuitarInstrument
+  groupBy: "instrument"
 
 - type: loadout
   id: ElectricGuitarInstrument
   storage:
     back:
     - ElectricGuitarInstrument
+  groupBy: "instrument"
 
 - type: loadout
   id: RockGuitarInstrument
   storage:
     back:
     - RockGuitarInstrument
+  groupBy: "instrument"
 
 - type: loadout
   id: HarmonicaInstrument
   storage:
     back:
     - HarmonicaInstrument
+  groupBy: "instrument"
 
 - type: loadout
   id: TrumpetInstrument
   storage:
     back:
     - TrumpetInstrument
+  groupBy: "instrument"
 
 - type: loadout
   id: CheapLighter
@@ -737,18 +749,21 @@
   storage:
     back:
     - DoubleEmergencyOxygenTankFilled
+  groupBy: "air tanks"
 
 - type: loadout
   id: DoubleEmergencyNitrogenTankFilled
   storage:
     back:
     - DoubleEmergencyNitrogenTankFilled
+  groupBy: "air tanks"
 
 - type: loadout
   id: DoubleEmergencyWaterVaporTankFilled
   storage:
     back:
     - DoubleEmergencyWaterVaporTankFilled
+  groupBy: "air tanks"
 
 - type: loadout
   id: MedkitFilled
@@ -780,111 +795,130 @@
   storage:
     back:
     - AvianDildo
+  groupBy: "lewd"
 
 - type: loadout
   id: CanineDildo
   storage:
     back:
     - CanineDildo
+  groupBy: "lewd"
 
 - type: loadout
   id: CanineDildoRed
   storage:
     back:
     - CanineDildoRed
+  groupBy: "lewd"
 
 - type: loadout
   id: NormalDildo
   storage:
     back:
     - NormalDildo
+  groupBy: "lewd"
 
 - type: loadout
   id: DoubleDildo
   storage:
     back:
     - DoubleDildo
+  groupBy: "lewd"
 
 - type: loadout
   id: DragonDildo
   storage:
     back:
     - DragonDildo
+  groupBy: "lewd"
 
 - type: loadout
   id: HorseDildo
   storage:
     back:
     - HorseDildo
+  groupBy: "lewd"
 
 - type: loadout
   id: TentacleDildo
   storage:
     back:
     - TentacleDildo
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdVibeRed
   storage:
     back:
     - LewdVibeRed
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdVibePink
   storage:
     back:
     - LewdVibePink
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdVibeTeal
   storage:
     back:
     - LewdVibeTeal
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdVibeGreen
   storage:
     back:
     - LewdVibeGreen
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdVibeYellow
   storage:
     back:
     - LewdVibeYellow
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdFleshlightGreen
   storage:
     back:
     - LewdFleshlightGreen
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdFleshlightPink
   storage:
     back:
     - LewdFleshlightPink
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdFleshlightRed
   storage:
     back:
     - LewdFleshlightRed
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdFleshlightTeal
   storage:
     back:
     - LewdFleshlightTeal
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdFleshlightYellow
   storage:
     back:
     - LewdFleshlightYellow
+  groupBy: "lewd"
 
 - type: loadout
   id: LewdWand
   storage:
     back:
     - LewdWand
+  groupBy: "lewd"
