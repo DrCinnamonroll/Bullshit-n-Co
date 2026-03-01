@@ -820,3 +820,9 @@ Entries:
         nicotine but still heal around the same.
   id: 100
   time: '2026-02-28T22:27:30.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Fixed leash visuals AGAIN.
+  id: 101
+  time: '2026-03-01T09:48:39.0000000+00:00'
