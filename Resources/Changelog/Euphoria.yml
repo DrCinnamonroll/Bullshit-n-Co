@@ -974,3 +974,13 @@ Entries:
         changes.
   id: 120
   time: '2026-03-04T08:37:55.0000000+00:00'
+- author: PhosphateWithManyOs
+  changes:
+    - type: Add
+      message: Port the PTL from Goobstation.
+    - type: Add
+      message: >-
+        PTL flatpacks available from logistics and one free one in the CE's
+        locker.
+  id: 121
+  time: '2026-03-04T08:44:26.0000000+00:00'
