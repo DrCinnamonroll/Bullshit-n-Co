@@ -148,7 +148,7 @@
 - type: loadout
   id: IntRoboHands
   equipment:
-    gloves: ClothingHandsGlovesRobohands
+    gloves: ClothingHandsGlovesIntRobohands
 
 # Shoes
 - type: loadout
