@@ -8,5 +8,5 @@
     sprite: Textures/_Funkystation/Clothing/Uniforms/Jumpsuits/int_roboticist.rsi
     state: icon
   - type: Clothing
-    sprite: Resources/Textures/_Funkystation/Clothing/Uniforms/Jumpsuits/int_roboticist.rsi
+    sprite: Textures/_Funkystation/Clothing/Uniforms/Jumpsuits/int_roboticist.rsi
     state: equipped-INNERCLOTHING

@@ -8,5 +8,5 @@
     sprite: Textures/_Funkystation/Clothing/Gloves/int_robohands.rsi
     state: icon
   - type: Clothing
-    sprite: Resources/Textures/_Funkystation/Clothing/Gloves/int_robohands.rsi
+    sprite: Textures/_Funkystation/Clothing/Gloves/int_robohands.rsi
     state: equipped-HAND
