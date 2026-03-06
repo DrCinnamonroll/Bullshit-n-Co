@@ -1061,3 +1061,35 @@ Entries:
         them.
   id: 130
   time: '2026-03-05T09:15:22.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: Fixed more error spam caused by footprints.
+  id: 131
+  time: '2026-03-06T06:13:56.0000000+00:00'
+- author: PhosphateWithManyOs
+  changes:
+    - type: Tweak
+      message: Adjusts the PTL
+  id: 132
+  time: '2026-03-06T06:15:13.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: Captains armored longcoat has pockets again.
+  id: 133
+  time: '2026-03-06T06:17:06.0000000+00:00'
+- author: PhosphateWithManyOs
+  changes:
+    - type: Add
+      message: Loading and Saving Labels on Labellers
+  id: 134
+  time: '2026-03-06T08:01:27.0000000+00:00'
+- author: JFerrix
+  changes:
+    - type: Fix
+      message: >-
+        Fixed game adding defaultMarkings to categories with more than one trait
+        point
+  id: 135
+  time: '2026-03-06T11:13:02.0000000+00:00'
