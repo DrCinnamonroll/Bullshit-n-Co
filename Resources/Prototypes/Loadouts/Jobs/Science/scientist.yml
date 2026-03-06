@@ -61,7 +61,15 @@
     jumpsuit: ClothingUniformJumpskirtRoboticist
 
 - type: loadout
-  id: SeniorResearcherJumpsuit
+  id: InterfacingRoboticistAltJumpsuit
+  equipment:
+    jumpskirt: ClothingUniformJumpskirtRoboticist
+
+- type: loadout
+  id: InterfacingRoboticistJumpsuit
+  equipment:
+    jumpsuit: ClothingUniformJumpsuitRoboticist
+
   effects:
   - !type:GroupLoadoutEffect
     proto: SeniorResearcher
@@ -134,6 +142,11 @@
 
 - type: loadout
   id: RobohandsGloves
+  equipment:
+    gloves: ClothingHandsGlovesRobohands
+
+- type: loadout
+  id: IntRoboHands
   equipment:
     gloves: ClothingHandsGlovesRobohands
 
