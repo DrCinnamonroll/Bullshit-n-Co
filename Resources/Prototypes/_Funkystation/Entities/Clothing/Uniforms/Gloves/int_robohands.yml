@@ -6,5 +6,7 @@
   components:
   - type: Sprite
     sprite: Resources/Textures/_Funkystation/Clothing/Gloves/int_robohands.rsi
+    state: icon
   - type: Clothing
     sprite: Resources/Textures/_Funkystation/Clothing/Gloves/int_robohands.rsi
+    state: equipped-HAND
