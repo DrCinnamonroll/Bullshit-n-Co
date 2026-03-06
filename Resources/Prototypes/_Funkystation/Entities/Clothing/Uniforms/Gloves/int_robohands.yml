@@ -5,8 +5,8 @@
   description: A pair of perfectly fashionable gloves used in robotics maintenance and tinkering. Mind the live wires.
   components:
   - type: Sprite
-    sprite: Textures/_Funkystation/Clothing/Gloves/int_robohands.rsi
+    sprite: _Funkystation/Clothing/Gloves/int_robohands.rsi
     state: icon
   - type: Clothing
-    sprite: Textures/_Funkystation/Clothing/Gloves/int_robohands.rsi
+    sprite: _Funkystation/Clothing/Gloves/int_robohands.rsi
     state: equipped-HAND
