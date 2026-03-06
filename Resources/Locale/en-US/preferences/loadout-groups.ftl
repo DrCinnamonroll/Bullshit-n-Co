@@ -21,6 +21,8 @@ loadout-group-pocket-tank-double = Species-specific double emergency tank in poc
 loadout-group-survival-mime = Mime Survival Box
 loadout-group-smokables = Smokables
 loadout-group-pets = Pets
+loadout-group-sex-toys = Sex Toys
+loadout-group-plushies = Plushies
 
 # Command
 loadout-group-captain-head = Captain head
