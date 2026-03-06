@@ -5,7 +5,7 @@
   description: Slim, sleek and- hey wait, this isn't the original description-
   components:
   - type: Sprite
-    sprite: Resources/Textures/_Funkystation/Clothing/Uniforms/Jumpsuits/int_roboticist.rsi
+    sprite: Textures/_Funkystation/Clothing/Uniforms/Jumpsuits/int_roboticist.rsi
     state: icon
   - type: Clothing
     sprite: Resources/Textures/_Funkystation/Clothing/Uniforms/Jumpsuits/int_roboticist.rsi

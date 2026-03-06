@@ -5,7 +5,7 @@
   description: Slim, sleeveless and- hey wait, this isn't the original description-
   components:
   - type: Sprite
-    sprite: Resources/Textures/_Funkystation/Clothing/Uniforms/Jumpskirts/int_roboticistalt.rsi
+    sprite: Textures/_Funkystation/Clothing/Uniforms/Jumpskirts/int_roboticistalt.rsi
     state: icon
   - type: Clothing
     sprite: Resources/Textures/_Funkystation/Clothing/Uniforms/Jumpskirts/int_roboticistalt.rsi
