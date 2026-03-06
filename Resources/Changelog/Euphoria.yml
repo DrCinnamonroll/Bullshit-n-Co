@@ -1067,3 +1067,9 @@ Entries:
       message: Fixed more error spam caused by footprints.
   id: 131
   time: '2026-03-06T06:13:56.0000000+00:00'
+- author: PhosphateWithManyOs
+  changes:
+    - type: Tweak
+      message: Adjusts the PTL
+  id: 132
+  time: '2026-03-06T06:15:13.0000000+00:00'
