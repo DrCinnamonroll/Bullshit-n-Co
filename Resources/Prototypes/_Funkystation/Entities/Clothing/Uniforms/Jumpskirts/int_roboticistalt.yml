@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: InterfacingRoboticistJumpsuit
-  name: interfacing roboticist's suit
+  name: interfacing sleeveless roboticist's suit
   description: Slim, sleeveless and- hey wait, this isn't the original description-
   components:
   - type: Sprite
