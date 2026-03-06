@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: InterfacingRoboticistJumpsuit
   name: interfacing roboticist's suit
-  description: Slim, sleek and- hey wait, this isn't the original description-
+  description: It's a slimming black with reinforced neuro-connectors; perfect for interfacing with mechs.
   components:
   - type: Sprite
     sprite: _Funkystation/Clothing/Uniforms/Jumpsuits/int_roboticist.rsi

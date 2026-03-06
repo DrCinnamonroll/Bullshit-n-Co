@@ -2,7 +2,7 @@
   parent: ClothingHandsBase
   id: IntRoboHands
   name: interfacing roboticist's gloves
-  description: A pair of perfectly fashionable gloves used in robotics maintenance and tinkering. Mind the live wires.
+  description: Tekkou-styled fingerless gloves with a fingerloop. Won't protect you from live wires, but will look GREAT doing it.
   components:
   - type: Sprite
     sprite: _Funkystation/Clothing/Gloves/int_robohands.rsi

@@ -2,7 +2,7 @@
   parent: ClothingUniformBase
   id: InterfacingRoboticistAltJumpsuit
   name: interfacing sleeveless roboticist's suit
-  description: Slim, sleeveless and- hey wait, this isn't the original description-
+  description: It's a slimming black with reinforced neuro-connectors; with a waist-tied lab coat and no sleeves, for maximum fashion.
   components:
   - type: Sprite
     sprite: _Funkystation/Clothing/Uniforms/Jumpskirts/int_roboticistalt.rsi
