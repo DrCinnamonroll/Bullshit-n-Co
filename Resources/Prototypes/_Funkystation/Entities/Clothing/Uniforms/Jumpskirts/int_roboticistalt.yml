@@ -1,0 +1,10 @@
+- type: entity
+  parent: ClothingUniformBase
+  id: InterfacingRoboticistJumpsuit
+  name: interfacing roboticist's suit
+  description: Slim, sleeveless and- hey wait, this isn't the original description-
+  components:
+  - type: Sprite
+    sprite: Resources/Textures/_Funkystation/Clothing/Uniforms/Jumpskirts/int_roboticistalt.rsi
+  - type: Clothing
+    sprite: Resources/Textures/_Funkystation/Clothing/Uniforms/Jumpskirts/int_roboticistalt.rsi
