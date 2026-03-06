@@ -1,7 +1,7 @@
 - type: entity
   parent: ClothingUniformBase
   id: InterfacingRoboticistJumpsuit
-  name: interfacing roboticist's suit
+  name: roboticist's interfacing suit
   description: It's a slimming black with reinforced neuro-connectors; perfect for interfacing with mechs.
   components:
   - type: Sprite
