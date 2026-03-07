@@ -61,16 +61,6 @@
     jumpsuit: ClothingUniformJumpskirtRoboticist
 
 - type: loadout
-  id: InterfacingRoboticistAltJumpsuit
-  equipment:
-    jumpskirt: ClothingUniformJumpskirtIntRoboticist
-
-- type: loadout
-  id: InterfacingRoboticistJumpsuit
-  equipment:
-    jumpsuit: ClothingUniformJumpsuitIntRoboticist
-
-- type: loadout
   id: SeniorResearcherJumpsuit
   effects:
   - !type:GroupLoadoutEffect
