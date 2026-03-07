@@ -853,6 +853,7 @@
   - RoboticistJumpskirt
   - ScientistJumpsuit
   - ScientistJumpskirt
+  - InterfacingRoboticistAltJumpsuit
 
 - type: loadoutGroup
   id: RoboticistOuterClothing
