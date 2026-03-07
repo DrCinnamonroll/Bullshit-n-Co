@@ -137,11 +137,6 @@
   equipment:
     gloves: ClothingHandsGlovesRobohands
 
-- type: loadout
-  id: IntRoboHands
-  equipment:
-    gloves: ClothingHandsGlovesIntRobohands
-
 # Shoes
 - type: loadout
   id: ScienceWinterBoots
