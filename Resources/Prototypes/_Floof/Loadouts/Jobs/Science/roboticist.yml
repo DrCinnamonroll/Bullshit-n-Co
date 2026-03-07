@@ -1,15 +1,15 @@
 - type: loadout
   id: InterfacingRoboticistAltJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpskirtIntRoboticist
+    jumpsuit: InterfacingRoboticistAltJumpsuit
 
 - type: loadout
   id: InterfacingRoboticistJumpsuit
   equipment:
-    jumpsuit: ClothingUniformJumpsuitIntRoboticist
+    jumpsuit: InterfacingRoboticistJumpsuit
 
 - type: loadout
   id: IntRoboHands
   equipment:
-    gloves: ClothingHandsGlovesIntRoboticist
+    gloves: IntRoboHands
 
