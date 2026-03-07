@@ -853,14 +853,6 @@
   - RoboticistJumpskirt
   - ScientistJumpsuit
   - ScientistJumpskirt
-  - type: loadout
-  - id: InterfacingRoboticistAltJumpsuit
-  - equipment:
-  - jumpskirt: ClothingUniformJumpskirtIntRoboticist
-  - type: loadout
-  - id: InterfacingRoboticistJumpsuit
-  - equipment:
-  - jumpsuit: ClothingUniformJumpsuitIntRoboticist
 
 - type: loadoutGroup
   id: RoboticistOuterClothing
@@ -883,10 +875,6 @@
   - LatexGloves
   - PurpleGloves
   - RobohandsGloves
-  - type: loadout
-  - id: IntRoboHands
-  - equipment:
-  - gloves: ClothingHandsGlovesIntRoboticist
 
 - type: loadoutGroup
   id: RoboticistShoes
