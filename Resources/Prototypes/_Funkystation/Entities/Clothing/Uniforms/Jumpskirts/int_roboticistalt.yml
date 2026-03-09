@@ -9,4 +9,3 @@
     state: icon
   - type: Clothing
     sprite: _Funkystation/Clothing/Uniforms/Jumpskirts/int_roboticistalt.rsi
-    state: equipped-INNERCLOTHING
