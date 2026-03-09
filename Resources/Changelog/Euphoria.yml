@@ -1103,3 +1103,159 @@ Entries:
         categories now.
   id: 136
   time: '2026-03-06T17:38:11.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Fix
+      message: Heavyweight should no longer get people stuck.
+  id: 137
+  time: '2026-03-07T04:10:27.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Tweak
+      message: >-
+        Centcomm decided enough is enough no more fighting when you are at
+        Centcomm, you will be pacified upon docking.
+  id: 138
+  time: '2026-03-07T04:13:35.0000000+00:00'
+- author: Ryunexo
+  changes:
+    - type: Add
+      message: Added two new drinks referencing two well-known characters.
+  id: 139
+  time: '2026-03-07T06:25:09.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Tweak
+      message: >-
+        Tricord now heals a minuscule amount of rads to deal with medibots
+        injecting people on loop for 0.01 rads.
+  id: 140
+  time: '2026-03-07T09:52:28.0000000+00:00'
+- author: torturedbymemes
+  changes:
+    - type: Fix
+      message: >-
+        Medical Cyborgs can now use their crew monitor without worrying about
+        power conservation and ejecting the cell!
+  id: 141
+  time: '2026-03-07T09:55:35.0000000+00:00'
+- author: ScarlettJFG
+  changes:
+    - type: Add
+      message: Geras form for Slimefolk, and the ability to morph into them.
+  id: 142
+  time: '2026-03-07T09:57:21.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Tweak
+      message: >-
+        Cyber eyes did not require the base system, prices have changed to
+        reflect that.
+    - type: Remove
+      message: Thermal cyber eye module
+  id: 143
+  time: '2026-03-07T10:16:50.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: CJ has gloves now.
+    - type: Add
+      message: LO has gloves now.
+    - type: Add
+      message: Courier get their fancy cloths back.
+    - type: Add
+      message: >-
+        Most jobs have their thongs, thigh highs and arm warmers in their
+        loadouts.
+    - type: Tweak
+      message: HoP only requires 5 hours of command time.
+    - type: Tweak
+      message: CJ requires clerk time again & is no longer a whitelisted role.
+    - type: Fix
+      message: Fixed a few loadout issues.
+  id: 144
+  time: '2026-03-07T10:17:59.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: The fish vendor will not scam you out of your beer bottles anymore.
+  id: 145
+  time: '2026-03-07T10:18:47.0000000+00:00'
+- author: ItsDzordz
+  changes:
+    - type: Add
+      message: Added 2 new plushies
+  id: 146
+  time: '2026-03-07T10:20:29.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Tweak
+      message: Updated the rules
+  id: 147
+  time: '2026-03-07T11:59:37.0000000+00:00'
+- author: Tarazicon
+  changes:
+    - type: Add
+      message: Added a new plushie resembling a resident moth engineer!
+    - type: Tweak
+      message: >-
+        Changed wrench and multitool sprites to use the old ones, those looked
+        far better. No more glowing chicken nugget multitool.
+    - type: Fix
+      message: Fixed research disks not having their interaction sounds.
+  id: 148
+  time: '2026-03-07T21:24:06.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: Central command said you are all smelly so they re-installed showers.
+  id: 149
+  time: '2026-03-07T21:33:26.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Add
+      message: Return of the Marked traits.
+  id: 150
+  time: '2026-03-08T00:07:27.0000000+00:00'
+- author: TheRealMasterChief117
+  changes:
+    - type: Fix
+      message: >-
+        Fixed some guidebook entries appearing with the wrong text. (no
+        localization)
+  id: 151
+  time: '2026-03-08T02:35:30.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: >-
+        Added an ability to flip your body orientation while lying. The default
+        keybind is Ctrl-R.
+    - type: Add
+      message: >-
+        Added a "default walk" toggle to the settings. The setting inverts your
+        walking state.
+    - type: Tweak
+      message: >-
+        The "rotate in world" command is now bound to Middle Mouse Button by
+        default. It used to be bound to R, which conflicted with "toggle
+        knockdown" and would sometimes cause you to rotate nearby furniture
+        while trying to lay down.
+    - type: Fix
+      message: All borgs should be able to crawl now.
+  id: 152
+  time: '2026-03-08T02:37:17.0000000+00:00'
+- author: ScarlettJFG
+  changes:
+    - type: Fix
+      message: Slimefolk now have an anti-theft system called wearing clothes
+    - type: Add
+      message: Removal sound for taking things out of Slimefolk internal storage.
+  id: 153
+  time: '2026-03-09T09:40:45.0000000+00:00'
+- author: sprkl
+  changes:
+    - type: Add
+      message: Security Technician and associated gear.
+  id: 154
+  time: '2026-03-09T11:55:43.0000000+00:00'
