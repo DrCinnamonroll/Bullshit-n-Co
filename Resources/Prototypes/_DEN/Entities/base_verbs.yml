@@ -1,0 +1,11 @@
+
+- type: entity
+  abstract: true
+  id: BaseObjectVerbsCutenessWall # not huggable
+  components:
+  - type: InteractionVerbs
+    allowedVerbs:
+    - KnockOn
+    - PetObject
+    - KissObject
+    - LickObject
