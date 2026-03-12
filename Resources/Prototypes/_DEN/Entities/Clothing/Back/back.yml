@@ -167,9 +167,7 @@
     attackRate: 2
     range: 1.5
     angle: 120
-    maxTargets: 5
     disableClick: true # You can't just smash someone with it directly, it's so big you have to swing the whole thing clumsily
-    heavyStaminaCost: 20 # And every time costs you a chunk of stamina
     damage:
       types:
         Blunt: 25 # Buffed the damage by 10blunt. It's a GIANT metal coffin, it shouldn't do the same damage as a crowbar.-Cinna
