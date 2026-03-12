@@ -6,6 +6,5 @@
   - type: InteractionVerbs
     allowedVerbs:
     - KnockOn
-    - PetObject
     - KissObject
     - LickObject
