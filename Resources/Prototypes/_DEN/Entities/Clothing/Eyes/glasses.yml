@@ -3,7 +3,7 @@
   parent: ClothingEyesGlassesEpistemics
   id: ClothingEyesGlassesEpistemicsMantis
   name: mantis psionics pince-nez
-  description: "A pince-nez that provides flash immunity and a psionics HUD. Comes with prescription eidolite lenses, if requested."
+  description: "A pince-nez that provides flash immunity. Comes with prescription eidolite lenses, if requested."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Eyes/Glasses/epiglasses_mantis.rsi
@@ -18,7 +18,7 @@
   parent: ClothingEyesGlassesEpistemicsMantis
   id: ClothingEyesGlassesEpistemicsMantisTinted
   name: mantis psionics pince-nez (tinted)
-  description: "A tinted pince-nez that provides flash immunity and a psionics HUD. Comes with prescription eidolite lenses, if requested."
+  description: "A tinted pince-nez that provides flash immunity. Comes with prescription eidolite lenses, if requested."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Eyes/Glasses/epiglasses_mantis_dark.rsi
@@ -30,7 +30,7 @@
   parent: ClothingEyesGlassesEpistemicsMantis
   id: ClothingEyesGlassesEpistemicsMantisMirrored
   name: mantis psionics pince-nez (mirrored)
-  description: "A mirrored pince-nez that provides flash immunity and a psionics HUD. Comes with prescription eidolite lenses, if requested."
+  description: "A mirrored pince-nez that provides flash immunity. Comes with prescription eidolite lenses, if requested."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Eyes/Glasses/epiglasses_mantis_mirrored.rsi
@@ -42,7 +42,7 @@
   parent: ClothingEyesGlassesEpistemicsMantis
   id: ClothingEyesGlassesEpistemicsMantisVeil
   name: mantis psionics blindfold
-  description: "A sheer blindfold decorated with an electrum eye that provides flash immunity and psionics vision."
+  description: "A sheer blindfold decorated with an electrum eye that provides flash immunity."
   components:
   - type: Sprite
     sprite: _DEN/Clothing/Eyes/Glasses/epiglasses_mantis_alt.rsi
@@ -53,7 +53,7 @@
   parent: ClothingEyesBase
   id: ClothingEyesGlassesEpistemics
   name: epi psionics glasses
-  description: Upgraded sunglasses that provide flash immunity and an epistemics psionics HUD.
+  description: Upgraded sunglasses that provide flash immunity.
   components:
   - type: Sprite
     sprite: _Den/Clothing/Eyes/Glasses/epiglasses.rsi
