@@ -1435,3 +1435,13 @@ Entries:
         for the disorganised or mute cargonians amongst us.
   id: 175
   time: '2026-03-19T10:39:19.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Add
+      message: >-
+        Added 3 alternative sex traits. They have much more liquid for your
+        milking needs.
+    - type: Tweak
+      message: Adjusted cock and pussy to fill exactly 1 normal glass (From 25 to 30)
+  id: 176
+  time: '2026-03-20T09:34:28.0000000+00:00'
