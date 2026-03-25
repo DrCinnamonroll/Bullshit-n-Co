@@ -499,7 +499,7 @@
 
 - type: entity
   parent: [ClothingHandsKnuckleDusters, BaseMinorContraband] #Craftable version of base knuckledusters
-  id: ClothingHandsKnuckleDustersBrass
+  id: ClothingHandsKBrassknuckleDusters
   name: brass knuckle dusters
   description: "Brass knuckle dusters, just like how they used to make em and still hit just as hard."
   components:
