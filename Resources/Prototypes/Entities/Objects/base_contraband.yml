@@ -226,3 +226,12 @@
   - type: Contraband
     severity: GrandTheft
     allowedDepartments: [ Command ]
+
+# Den- Mantis
+- type: entity
+  id: BaseMantisContraband
+  abstract: true
+  components:
+  - type: Contraband
+    severity: Restricted
+    allowedDepartments: [ Epistemics, Mantis ]
