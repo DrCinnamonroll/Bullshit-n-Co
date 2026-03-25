@@ -45,7 +45,7 @@
   # LandAtCursor just makes these items go slightly past where you throw them, instead of landing just short
   # Set AngularVelocity to true if you want the item to rotate when thrown
   - type: DamageOtherOnHit
-  # - type: ThrowingAngle
+    # - type: ThrowingAngle
     # angle: 0
   - type: LandAtCursor
   - type: ThrowingAngle
