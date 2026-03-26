@@ -49,7 +49,7 @@
     mustBeEquippedToUse: true
   - type: MeleeThrowOnHit # They fly about six tiles and don't take extra impact damage when hitting walls
     speed: 10
-    lifetime: 0.5
+    distance: 0.75
   - type: Reflect
     reflectProb: .2
     spread: 135
