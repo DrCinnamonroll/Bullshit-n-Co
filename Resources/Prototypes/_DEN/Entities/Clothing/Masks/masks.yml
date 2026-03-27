@@ -35,6 +35,7 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - MantisBeltStorable
 
 - type: entity
   parent: ClothingMaskBase
@@ -75,3 +76,4 @@
   - type: Tag
     tags:
     - WhitelistChameleon
+    - MantisBeltStorable

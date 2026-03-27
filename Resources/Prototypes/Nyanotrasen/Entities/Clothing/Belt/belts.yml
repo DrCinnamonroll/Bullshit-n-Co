@@ -17,6 +17,7 @@
         - HandLabeler
         - Sidearm
         - Folder
+        - MantisBeltStorable # Den Mantis
 
 - type: entity
   parent: ClothingBeltBase

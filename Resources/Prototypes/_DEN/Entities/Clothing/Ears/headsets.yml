@@ -14,6 +14,9 @@
     sprite: _DEN/Clothing/Ears/Headsets/mantis.rsi
   - type: Clothing
     sprite: _DEN/Clothing/Ears/Headsets/mantis.rsi
+  - type: Tag
+    tags:
+    - MantisBeltStorable
 
 - type: entity
   parent: ClothingHeadsetMantis
@@ -25,3 +28,6 @@
     state: icon_alt
   - type: Clothing
     equippedPrefix: alt
+  - type: Tag
+    tags:
+    - MantisBeltStorable

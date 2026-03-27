@@ -15,6 +15,7 @@
   - type: Tag # TheDen
     tags:
     - WhitelistChameleon
+    - MantisBeltStorable
 
 - type: entity
   parent: [ClothingHandsGlovesMantis, BaseFoldable]
@@ -45,6 +46,9 @@
     spawned:
     - id: ClothingHandsGlovesMantisAiryTailored
       amount: 1
+  - type: Tag
+    tags:
+    - MantisBeltStorable
 
 - type: entity
   parent: ClothingHandsGlovesMantisAiry
@@ -62,6 +66,9 @@
     spawned:
     - id: ClothingHandsGlovesMantisAiry
       amount: 1
+  - type: Tag
+    tags:
+    - MantisBeltStorable
 
 - type: entity
   parent: ClothingHandsGlovesMantis
@@ -75,6 +82,9 @@
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_chains.rsi
   - type: Fiber
     fiberColor: fibers-gold
+  - type: Tag
+    tags:
+    - MantisBeltStorable
 
 - type: entity
   parent: ClothingHandsGlovesMantis
@@ -88,6 +98,9 @@
     sprite: _DEN/Clothing/Hands/Gloves/mantis_gloves_dark.rsi
   - type: Fiber
     fiberColor: fibers-black
+  - type: Tag
+    tags:
+    - MantisBeltStorable
 
 - type: entity
   parent: [ClothingHandsGlovesMantis, BaseFoldable]
@@ -113,3 +126,6 @@
     unfoldVerbText: fold-flip-verb
   - type: FoldableClothing
     foldedEquippedPrefix: flipped
+  - type: Tag
+    tags:
+    - MantisBeltStorable

@@ -16,3 +16,6 @@
     - HeadSide
     clothingSlots:
     - ears
+  - type: Tag
+    tags:
+    - MantisBeltStorable

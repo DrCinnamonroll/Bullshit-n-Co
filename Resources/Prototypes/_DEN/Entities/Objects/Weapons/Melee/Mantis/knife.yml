@@ -99,8 +99,8 @@
     malus: 0.3 # A third harder to disarm than CombatKnife due to the finger ring
   - type: Tag
     tags:
-    - Knife
-    - MantisBeltStorable
+      - Knife
+      - MantisBeltStorable
 
 - type: entity
   parent: [TailorsKnife, BaseAntiPsionicWeapon]
