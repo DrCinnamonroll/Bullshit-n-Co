@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  parent: [ClothingHandsKnuckleDusters, BaseFoldable, BaseAntiPsionicWeapon, BaseMantisContraband]
+  parent: [ClothingHandsBase, BaseFoldable, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: MantisMeleeFist
   name: manifold
   description: "A heavy mnemolith gauntlet designed for control rather than sheer lethality, capable of hurling foes back and, at times, deflecting incoming fire. Said to take its name from its capacity for folding men, and its clever design allows it to be worn on either hand. Deadly when wielded against psionic and otherworldly threats."
@@ -44,7 +44,7 @@
       path: /Audio/_Impstation/Weapons/nullglove.ogg
       params:
         variation: 0.15
-    animation: WeaponArcPunch
+    animation: WeaponArcFist
     wideAnimation: WeaponArcSmash
     mustBeEquippedToUse: true
   - type: MeleeThrowOnHit # They fly about six tiles and don't take extra impact damage when hitting walls
