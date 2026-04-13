@@ -2067,3 +2067,11 @@ Entries:
       message: Added cowprint bikini and thigh highs. Moo!
   id: 259
   time: '2026-04-13T08:49:08.0000000+00:00'
+- author: Raikyr0
+  changes:
+    - type: Fix
+      message: Added Sericulture back to Arachne. They can now spin silk again.
+    - type: Fix
+      message: Added Spider back to Arachne. They can now place floor webs again.
+  id: 260
+  time: '2026-04-13T08:55:06.0000000+00:00'
