@@ -69,3 +69,9 @@
   id: GlimmerCreatures
   name: guide-entry-glimmer-creatures
   text: "/ServerInfo/Guidebook/_DV/Epistemics/GlimmerCreatures.xml"
+
+# Den mantis Guide
+- type: guideEntry
+  id: MantisGuide
+  name: guide-entry-mantis # TheDen - Mantis is no longer "Psionic Mantis"
+  text: "/ServerInfo/Guidebook/Science/MantisGuide.xml"

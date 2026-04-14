@@ -61,6 +61,9 @@
 #          min: 10
 #        - !type:OrganType
 #          type: Succubus
+#        - !type:ReagentThreshold
+#          reagent:
+#          min: 10
   footstepSound:
     collection: FootstepSticky
     params:
