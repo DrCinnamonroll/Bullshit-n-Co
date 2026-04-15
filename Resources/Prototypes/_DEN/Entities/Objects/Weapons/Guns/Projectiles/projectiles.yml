@@ -181,6 +181,8 @@
   - type: ChemicalAmmo
   - type: SolutionContainerManager
     solutions:
+      injector:
+        maxVol: 5
       ammo:
         reagents:
         - ReagentId: Cryptobiolin

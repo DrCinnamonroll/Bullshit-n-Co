@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  parent: [ClothingHandsBase, BaseFoldable, BaseAntiPsionicWeapon, BaseMantisContraband]
+  parent: [ClothingHandsBase,BaseFoldable, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: MantisMeleeFist
   name: manifold
   description: "A heavy mnemolith gauntlet designed for control rather than sheer lethality, capable of hurling foes back and, at times, deflecting incoming fire. Said to take its name from its capacity for folding men, and its clever design allows it to be worn on either hand. Deadly when wielded against psionic and otherworldly threats."
@@ -27,9 +27,12 @@
   - type: Item
     sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisfist.rsi
     size: Normal
-  - type: Clothing
-    sprite: _DEN/Objects/Weapons/Melee/Mantis/mantisfist.rsi
   - type: MeleeWeapon
+    damage:
+      types:
+        Blunt: 12
+        Holy: 6
+        Structural: 7.5 # 5 structural DPS
     bluntStaminaDamageFactor: 1.25 # Stuns in 6 hits (which takes 6 seconds)
     attackRate: 1.0 # A bit slower than the other weapons
     range: 1.5
