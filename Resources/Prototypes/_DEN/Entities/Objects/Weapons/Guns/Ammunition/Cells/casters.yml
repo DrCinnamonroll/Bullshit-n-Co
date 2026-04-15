@@ -165,49 +165,10 @@
       - MantisBeltStorable
 
 # Cryptobiolin casters
-- type: entity
-  parent: BaseMantisCasterPistol
-  id: MantisCasterPistolCrypto
-  name: pistol caster (silencing)
-  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each bullet carries a measured droplet of cryptobiolin that dampens noospheric connection on contact, suppressing psionics for nearly two minutes per hit. A full magazine carries enough to last twenty minutes. Built to neutralize violent psions without causing harm."
-  components:
-  - type: Sprite
-    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-pistol-cryptobiolin.rsi
-  - type: BatteryAmmoProvider
-    proto: BulletMantisCrypto
 
-- type: entity
-  parent: BaseMantisCasterRevolver
-  id: MantisCasterRevolverCrypto
-  name: revolver caster (silencing)
-  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each bullet carries a measured droplet of cryptobiolin that dampens noospheric connection on contact, suppressing psionics for over three minutes per hit. A full cylinder carries enough to last twenty minutes. Built to neutralize violent psions without causing harm."
-  components:
-  - type: Sprite
-    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-revolver-cryptobiolin.rsi
-  - type: BatteryAmmoProvider
-    proto: BulletMantisCryptoRevolver
 
-- type: entity
-  parent: BaseMantisCasterShotgun
-  id: MantisCasterShotgunCrypto
-  name: shotgun caster (silencing)
-  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each blast disperses measured droplets of cryptobiolin that dampen noospheric connection on contact, suppressing psionics for forty seconds per pellet or four minutes per shot. A full cylinder carries enough to last twenty minutes. Built to neutralize violent psions without causing harm."
-  components:
-  - type: Sprite
-    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-shotgun-cryptobiolin.rsi
-  - type: BatteryAmmoProvider
-    proto: BulletMantisCryptoSpread
-
-- type: entity
-  parent: BaseMantisCasterSubMachineGun
-  id: MantisCasterSubMachineGunCrypto
-  name: submachine gun caster (silencing)
-  description: "A liquid anomaly core harnessed as a self-replenishing ammo source. Each bullet carries a measured droplet of cryptobiolin that dampens noospheric connection on contact, suppressing psionics for over thirty seconds per hit. A full magazine carries enough to last twenty minutes. Built to neutralize violent psions without causing harm."
-  components:
-  - type: Sprite
-    sprite: _DEN/Objects/Weapons/Guns/Ammunition/Magazine/Battery/Mantis/mantis-submachinegun-cryptobiolin.rsi
-  - type: BatteryAmmoProvider
-    proto: BulletMantisCryptoSubMachineGun
+# Silencing Types removed, because i am dumb and cant get them to work without crashing the game :<
+# Also secondary note, never felt like we needed them.
 
 # Holy casters
 - type: entity
