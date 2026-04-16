@@ -2188,3 +2188,13 @@ Entries:
       message: Fixed some issues with the Chief Engineer Loadout
   id: 273
   time: '2026-04-16T07:16:30.0000000+00:00'
+- author: SyaoranFox
+  changes:
+    - type: Add
+      message: Conspirators as part of being rolled for Secret.
+    - type: Tweak
+      message: >-
+        Event scheduler to have more events more often, while still keeping
+        periods of calm.
+  id: 274
+  time: '2026-04-16T07:34:08.0000000+00:00'
