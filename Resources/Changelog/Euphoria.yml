@@ -2220,3 +2220,11 @@ Entries:
       message: Medical pouches for paramedics and corpsman to keep their chems in.
   id: 277
   time: '2026-04-16T07:38:49.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Add
+      message: >-
+        Bananium has been seen on lavaland planets and large asteroids in the
+        Euphoria sector again.
+  id: 278
+  time: '2026-04-17T14:43:27.0000000+00:00'
