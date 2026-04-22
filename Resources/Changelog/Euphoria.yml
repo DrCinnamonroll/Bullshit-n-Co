@@ -2304,3 +2304,11 @@ Entries:
       message: The "help up" interaction should now work correctly.
   id: 287
   time: '2026-04-22T10:32:55.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Fix
+      message: >-
+        Mops can clean empty footprints now. The cause of empty footprints still
+        remains a partial mystery.
+  id: 288
+  time: '2026-04-22T11:33:46.0000000+00:00'
