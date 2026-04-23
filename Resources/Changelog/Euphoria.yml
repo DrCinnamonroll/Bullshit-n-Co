@@ -2352,3 +2352,13 @@ Entries:
         approved.
   id: 293
   time: '2026-04-23T10:10:28.0000000+00:00'
+- author: Mnemotechnician
+  changes:
+    - type: Add
+      message: Muzzles now obfuscate your speech instead of replacing it.
+    - type: Fix
+      message: >-
+        Accents (incl. muzzle accent) are no longer applied to non-spoken
+        languages (sign languages and universal).
+  id: 294
+  time: '2026-04-23T10:18:17.0000000+00:00'
