@@ -2416,3 +2416,9 @@ Entries:
       message: Tweaked Interdyne Herbals description and contents.
   id: 301
   time: '2026-04-25T09:16:50.0000000+00:00'
+- author: JaDiDo
+  changes:
+    - type: Add
+      message: Added vore, accessible only through consent toggles
+  id: 302
+  time: '2026-04-26T00:38:03.0000000+00:00'
