@@ -33,6 +33,12 @@
   minLimit: 0
   loadouts:
   - MantisFezHat
+  #Den Mantis start
+  - ClothingHeadHoodMantisDark
+  - ClothingHeadHatFezMantisInsulative
+  - ClothingHeadHatFezMantisAiry
+  - ClothingHeadHatFezMantisOrnate
+  #Den Mantis end
 
 - type: loadoutGroup
   id: MantisJumpsuit
@@ -41,6 +47,12 @@
   loadouts:
   - MantisJumpsuit
   - MantisJumpskirt
+  #Den Mantis start
+  - ClothingUniformJumpsuitMantisDark
+  - ClothingUniformJumpsuitMantisLoincloth
+  - ClothingUniformSkirtMantisAiry
+  - ClothingUniformSkirtMantisOrnate
+  #Den Mantis end
 
 - type: loadoutGroup
   id: MantisOuterClothing
@@ -50,6 +62,12 @@
   loadouts:
   - MantisCoat
   - MantisWintercoat
+  #Den Mantis start
+  - ClothingOuterCoatMantisAiry
+  - ClothingOuterCoatMantisOrnate
+  - ClothingOuterWinterCoatMantisDark
+  - ClothingOuterWinterCoatMantisMu
+  #Den Mantis end
 
 - type: loadoutGroup
   id: MantisShoes
@@ -57,6 +75,11 @@
   name: loadout-group-mantis-shoes
   loadouts:
   - MantisBoots
+  #Den Mantis start
+  - ClothingShoesSandalsMantisAiry
+  - ClothingShoesSandalsMantisDark
+  - ClothingShoesSandalsMantisOrnate
+  #Den Mantis end
 
 - type: loadoutGroup
   id: MantisGloves
@@ -65,6 +88,46 @@
   minLimit: 0
   loadouts:
   - WhiteGloves
+  #Den Mantis start
+  - ClothingHandsGlovesMantisAiry
+  - ClothingHandsGlovesMantisChains
+  - ClothingHandsGlovesMantisDark
+  - ClothingHandsGlovesMantisOrnate
+  #Den Mantis end
+
+- type: loadoutGroup
+  id: MantisBackpack
+  name: Mantis backpacks
+  loadouts:
+  - ClothingBackpackMantis
+  - ClothingBackpackDuffelMantis
+  - ClothingBackpackSatchelMantis
+  - ClothingBackpackSatchelMantisPurse
+  - ClothingBackpackMessengerMantis
+
+- type: loadoutGroup
+  id: MantisBelt
+  name: Mantis belts
+  loadouts:
+  - ClothingBeltMantisAiry
+  - ClothingBeltMantisDark
+  - ClothingBeltMantisOrnate
+
+- type: loadoutGroup
+  id: MantisEyes
+  name: Mantis eyes
+  loadouts:
+  - ClothingEyesGlassesEpistemicsMantis
+  - ClothingEyesGlassesEpistemicsMantisTinted
+  - ClothingEyesGlassesEpistemicsMantisMirrored
+  - ClothingEyesGlassesEpistemicsMantisVeil
+
+- type: loadoutGroup
+  id: MantisMasks
+  name: Mantis masks
+  loadouts:
+  - ClothingMaskMantisVeil
+  - ClothingMaskMantisRitual
 
 # Security
 ## Prison Guard

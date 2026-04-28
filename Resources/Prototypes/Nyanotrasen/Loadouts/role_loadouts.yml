@@ -19,10 +19,13 @@
   - GroupTankHarness
   - MantisHead
   - MantisJumpsuit
-  - ScientistBackpack
   - MantisOuterClothing
   - MantisShoes
   - MantisGloves
+  - MantisBelt # Den
+  - MantisBackpack
+  - MantisEyes
+  - MantisMasks
   - Survival
   - GroupSpeciesBreathTool
 
