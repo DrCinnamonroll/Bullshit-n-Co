@@ -97,6 +97,7 @@
 
 - type: loadoutGroup
   id: MantisBackpack
+  parent: [ScientistBackpack]
   name: Mantis backpacks
   loadouts:
   - ClothingBackpackMantis
@@ -128,6 +129,21 @@
   loadouts:
   - ClothingMaskMantisVeil
   - ClothingMaskMantisRitual
+
+- type: loadoutGroup
+  id: MantisNeck
+  name: Mantis neck
+  loadouts:
+  - ClothingNeckCloakMantisDark
+  - ClothingNeckMantleMantisOrnate
+  - BedsheetSomberMantis
+
+- type: loadoutGroup
+  id: MantisHeadSets
+  name: Mantis headsets
+  loadouts:
+  - ClothingHeadsetMantis
+  - ClothingHeadsetAltMantis
 
 # Security
 ## Prison Guard

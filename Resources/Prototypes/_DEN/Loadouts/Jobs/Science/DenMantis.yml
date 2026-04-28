@@ -180,3 +180,32 @@
   id: ClothingBeltMantisOrnate
   equipment:
     belt: ClothingBeltMantisOrnate
+
+# Neck
+
+- type: loadout
+  id: ClothingNeckCloakMantisDark
+  equipment:
+    neck: ClothingNeckCloakMantisDark
+
+- type: loadout
+  id: ClothingNeckMantleMantisOrnate
+  equipment:
+    neck: ClothingNeckMantleMantisOrnate
+
+- type: loadout
+  id: BedsheetSomberMantis
+  equipment:
+    neck: BedsheetSomberMantis
+
+# Ears
+
+- type: loadout
+  id: ClothingHeadsetMantis
+  equipment:
+    ear: ClothingHeadsetMantis
+
+- type: loadout
+  id: ClothingHeadsetAltMantis
+  equipment:
+    headSet: ClothingHeadsetAltMantis

@@ -22,10 +22,14 @@
   - MantisOuterClothing
   - MantisShoes
   - MantisGloves
-  - MantisBelt # Den
+  # Den Mantis start
+  - MantisBelt
   - MantisBackpack
   - MantisEyes
   - MantisMasks
+  - MantisNeck
+  - MantisHeadSets
+  # Den Mantis end
   - Survival
   - GroupSpeciesBreathTool
 

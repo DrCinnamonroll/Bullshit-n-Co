@@ -133,7 +133,6 @@
   - type: StorageFill
     contents:
     - id: LanternMantis
-    - id: BoxFolderMantis
     - id: HandLabelerMantis
   - type: Tag
     tags:
