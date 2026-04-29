@@ -179,6 +179,7 @@
   - MantisCaseChemicals
   - MantisCaseCandles
   - MantisCaseRestraints
+  - ClothingBackpackCoffinMantisBasic
 
 - type: loadoutGroup
   id: MantisMelee

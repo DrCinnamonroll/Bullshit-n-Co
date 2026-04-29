@@ -296,6 +296,12 @@
     back:
     - MantisCaseRestraints
 
+- type: loadout
+  id: ClothingBackpackCoffinMantisBasic
+  storage:
+    suitStorage:
+    - ClothingBackpackCoffinMantisBasic
+
 # Melee
 
 - type: loadout
