@@ -2460,3 +2460,11 @@ Entries:
       message: Added honey glazed ham can now be swung like a club
   id: 307
   time: '2026-04-29T10:11:09.0000000+00:00'
+- author: kivdon
+  changes:
+    - type: Tweak
+      message: >-
+        Changed Super Synth time requirement in Musician from 50 hours to 15
+        hours.
+  id: 308
+  time: '2026-04-29T10:11:59.0000000+00:00'
