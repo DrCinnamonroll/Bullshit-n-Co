@@ -74,4 +74,4 @@
 - type: guideEntry
   id: MantisGuide
   name: guide-entry-mantis # TheDen - Mantis is no longer "Psionic Mantis"
-  text: "/ServerInfo/Guidebook/Science/MantisGuide.xml"
+  text: "/ServerInfo/Guidebook/_Den/Epistemics/MantisGuide.xml"

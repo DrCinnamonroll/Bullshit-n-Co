@@ -32,7 +32,6 @@ These titles are callings, rather than ranks. A mantis may embody more than one,
 ## Equipment and Usage
 
 <Box>
-  <GuideEntityEmbed Entity="ForensicMantisPDA" Caption=""/>
   <GuideEntityEmbed Entity="LanternMantis" Caption=""/>
   <GuideEntityEmbed Entity="VendingMachineSomberMantis" Caption=""/>
   <GuideEntityEmbed Entity="ClothingBackpackCoffinMantis" Caption=""/>
@@ -83,15 +82,12 @@ Mantis firearms are unique models that utilize specialized [color=#a65ccc]caster
 
 <Box>
   <GuideEntityEmbed Entity="MantisCasterPistolHoly" Caption="Pistol (Banishing)"/>
-  <GuideEntityEmbed Entity="MantisCasterRevolverCrypto" Caption="Revolver (Silencing)"/>
   <GuideEntityEmbed Entity="MantisCasterSubMachineGunCapgun" Caption="SMG (Training)"/>
   <GuideEntityEmbed Entity="MantisCasterShotgunLethal" Caption="Shotgun (Piercing)"/>
 </Box>
 
 - [color=#a65ccc]Banishing[/color] casters cause metaphysical damage only. Effective against otherworldly phenomena, harmless against crew.
-- [color=#a65ccc]Silencing[/color] casters inject cryptobiolin. A full caster's dose suppresses a psion's abilities for twenty minutes.
-- [color=#ffd069]Training[/color] casters fire caps that produce only light, sound, and recoil. Useful for practice, if found.
-- [color=#d9418d]Piercing[/color] casters fire sharpened diamond projectiles, [color=#d9418d] and are not authorized aboard Nanotrasen facilities.[/color]
+- [color=#ffd069]Training[/color] casters fire caps that produce only light, sound, and recoil. Useful for practice, if found.- [color=#d9418d]Piercing[/color] casters fire sharpened diamond projectiles, [color=#d9418d] and are not authorized aboard Nanotrasen facilities.[/color]
 
 ## Expectations
 
