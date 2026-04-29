@@ -14,8 +14,8 @@
     - Hair
     - HeadTop
     - HeadSide
-    clothingSlots:
-    - ears
+    #clothingSlots:
+    #- ears
   - type: Tag
     tags:
     - MantisBeltStorable

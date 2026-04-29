@@ -64,7 +64,7 @@
   - type: StorageFill
     contents:
     - id: MantisMeleeSickle
-    - id: BoxFolderMantis
+    #- id: BoxFolderMantis
     - id: CigPackMnemolith
     - id: FlippoLighterMantis
     - id: SomberChairLeatherMantisWheelchairFolded

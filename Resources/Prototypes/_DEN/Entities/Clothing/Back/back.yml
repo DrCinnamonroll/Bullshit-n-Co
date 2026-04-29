@@ -161,7 +161,7 @@
       types:
         Blunt: 25
         Structural: 15
-    disableClick: true
+    #disableClick: true
   - type: EmbeddableProjectile
     embedOnThrow: false # It'll fly through people
   - type: ThrowingAngle
@@ -172,7 +172,7 @@
     attackRate: 0.5
     range: 1.5
     angle: 120
-    disableClick: true # You can't just smash someone with it directly, it's so big you have to swing the whole thing clumsily
+    #disableClick: true # You can't just smash someone with it directly, it's so big you have to swing the whole thing clumsily
     damage:
       types:
         Blunt: 25 # Buffed the damage by 10blunt. It's a GIANT metal coffin, it shouldn't do the same damage as a crowbar.-Cinna

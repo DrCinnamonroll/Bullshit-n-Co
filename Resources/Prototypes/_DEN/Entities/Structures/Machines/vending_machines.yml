@@ -46,7 +46,7 @@
     range: 0
     enabled: false
     sound:
-      path: /Audio/Effects/silence.ogg # It has some wires inside, but it doesn't hum
+      path: /Audio/Weapons/Guns/Gunshots/Effects/silence.ogg # It has some wires inside, but it doesn't hum
   - type: SentienceTarget
     flavorKind: station-event-random-sentience-flavor-mechanical
     weight: 0.25 # It's plugged into the noosphere, come on
@@ -57,12 +57,11 @@
     speechSounds: Tenor
   - type: Psionic
     removable: false
-    roller: false
-    assayFeedback:
-      - reliquary-feedback # I SEE YOU, INTERLOPER. YOUR THOUGHTS TRESPASS UPON SACRED MATRICES.
-    psychognomicDescriptors: # Not "old" or "demiurgic" like the Oracle or Sophia, it has a younger, smaller soul
-      - p-descriptor-mysterious
-      - p-descriptor-emanative
+    #assayFeedback:
+      #- reliquary-feedback # I SEE YOU, INTERLOPER. YOUR THOUGHTS TRESPASS UPON SACRED MATRICES.
+    #psychognomicDescriptors: # Not "old" or "demiurgic" like the Oracle or Sophia, it has a younger, smaller soul
+      #- p-descriptor-mysterious
+      #- p-descriptor-emanative
   - type: IntrinsicRadioReceiver
   - type: IntrinsicRadioTransmitter
     channels:
@@ -73,9 +72,9 @@
     - Common # They can at least listen
   - type: LanguageKnowledge
     speaks:
-    - Psychomantic
+    - TauCetiBasic
     understands:
-    - Psychomantic
+    - TauCetiBasic
   - type: Actions
   - type: ThermalVision # Weird psionic senses
     pulseTime: 0 # Toggled, not timed
