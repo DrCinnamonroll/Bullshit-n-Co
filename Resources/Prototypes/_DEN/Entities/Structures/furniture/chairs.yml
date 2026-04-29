@@ -100,7 +100,12 @@
     canFoldInsideContainer: false
   - type: Sprite
     sprite: _DEN/Structures/Specific/Mantis/mantischair.rsi
-    state: vehicle
+    layers:
+    - state: vehicle
+      map: [ "unfoldedLayer" ]
+    - state: vehicle_folded
+      map: [ "foldedLayer" ]
+      visible: false
   - type: Item
     size: Huge
   - type: Damageable
