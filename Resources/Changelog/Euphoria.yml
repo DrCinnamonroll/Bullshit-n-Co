@@ -2468,3 +2468,9 @@ Entries:
         hours.
   id: 308
   time: '2026-04-29T10:11:59.0000000+00:00'
+- author: Dunrab
+  changes:
+    - type: Fix
+      message: Paramedics will no longer spawn with duplicate PDAs.
+  id: 309
+  time: '2026-04-29T10:13:28.0000000+00:00'
