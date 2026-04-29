@@ -8,7 +8,7 @@
   - type: HumanoidAppearance
     species: Diona
   - type: Hunger
-    baseDecayRate: 0.015 # DeltaV
+    baseDecayRate: 0.0083 # DeltaV; Euphoria - rebalanced hunger from lower base
   - type: Thirst
     baseDecayRate: 0.15 # DeltaV
   - type: Icon
@@ -121,9 +121,6 @@
           32:
             sprite: Mobs/Species/Human/displacement.rsi
             state: jumpsuit-female
-  - type: FootPrints # DeltaV
-    leftBarePrint: "footprint-left-bare-diona"
-    rightBarePrint: "footprint-right-bare-diona"
   - type: MovementSpeedModifier # DeltaV
     baseWalkSpeed: 1.0
     baseSprintSpeed: 3.0

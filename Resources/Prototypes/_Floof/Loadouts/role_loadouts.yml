@@ -16,6 +16,7 @@
   - GroupTankHarness
   - StationEngineerHead
   - StationEngineerNeck # DeltaV
+  - FloofEngineeringGlasses # Floofstation glasses
   - SeniorEngineerJumpsuit # floofstation
   - StationEngineerGloves # floostation
   - StationEngineerBelts # floofstation
@@ -24,7 +25,6 @@
   - StationEngineerShoes
   - StationEngineerID
   - SurvivalExtended
-  - Trinkets
   - Smokeables
   - StationEngineerJobTrinkets
   - GroupSpeciesBreathTool
@@ -39,14 +39,13 @@
   - MedicalMask
   - SeniorPhysicianJumpsuits #floofstation
   - MedicalDoctorBelts #floofstation
+  - FloofSeniorPhysicianPDAs # Floofstation Alternative pdas
   - MedicalGloves
   - MedicalBackpack
   - MedicalDoctorOuterClothing
   - MedicalShoes
-  - MedicalDoctorPDA
   - MedicalEyewear
   - SurvivalMedical
-  - Trinkets
   - Smokeables
   - MedicalDoctorJobTrinkets
   - GroupSpeciesBreathToolMedical
@@ -66,7 +65,6 @@
   - ScientistPDA
   - Glasses
   - Survival
-  - Trinkets
   - Smokeables
   - ScientistJobTrinkets
   - GroupSpeciesBreathTool
@@ -86,7 +84,6 @@
   - SecurityBelt
   - SecurityEyewear # DeltaV - Security eyewear with prescription options
   - SurvivalSecurity
-  - Trinkets
   - Smokeables
   - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity
@@ -102,19 +99,20 @@
   - CargoTechnicianNeck # DeltaV
   - CargoTechnicianJumpsuit # floofstation - there are no special jumpsuits/skirts for inventory spec so we will use cargo techs to make it easier
   - InventorySpecialistMisc # floofstation
+  - PassengerGloves #floofstation
   - CargoTechnicianBackpack
   - CargoTechnicianOuterClothing
-  - CargoPDADelta # DeltaV
+  - InventorySpecialistPDA # Euphoria
   - CargoTechnicianShoes
   - Glasses
   - Survival
-  - Trinkets
   - Smokeables
   - CargoTechnicianJobTrinkets
   - GroupSpeciesBreathTool
 
 - type: roleLoadout
   id: JobSecurityTechnician
+  parent: JobBaseLoadout # Euphoria
   groups:
   - SecurityHead
   - SecurityNeck
@@ -124,10 +122,8 @@
   - StationEngineerGloves
   - SecurityShoes
   - SecurityPDA
-  - StationEngineerBelts
   - RoboticistGlasses
   - SurvivalSecurity
-  - Trinkets
   - Smokeables
   - SecurityJobTrinkets
   - GroupSpeciesBreathToolSecurity

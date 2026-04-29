@@ -22,7 +22,7 @@
   requireAdminNotify: true # DeltaV
   supervisors: job-supervisors-captain
   canBeAntag: false
-  whitelisted: true # DeltaV
+  whitelisted: false #Euphoria - security is an open department
   access:
   - HeadOfSecurity
   - Command
@@ -47,7 +47,7 @@
   id: HoSGear
   equipment:
     #eyes: ClothingEyesGlassesSecurity # DeltaV - loadouts
-    id: HoSPDA
+    #id: HoSPDA # Floofstation - let loadouts handle what pda to give
     gloves: ClothingHandsGlovesCombat
     ears: ClothingHeadsetAltSecurity
     #pocket1: WeaponPistolMk58 # DeltaV - loadouts

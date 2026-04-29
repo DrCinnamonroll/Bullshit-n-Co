@@ -9,3 +9,84 @@
   storage:
     back:
     - RemoteSignaller
+
+- type: loadout
+  id: Binoculars # added just for a bit, check out someone with binoculars right infront of em
+  storage:
+    back:
+    - Binoculars
+
+- type: loadout
+  id: MaterialCardboard # Kickstart your cardboard fort
+  storage:
+    back:
+    - MaterialCardboard
+
+- type: loadout
+  id: ToySword
+  storage:
+    back:
+    - ToySword
+  groupBy: "Other Toys"
+
+- type: loadout
+  id: CardBoxNanotrasen
+  storage:
+    back:
+    - CardBoxNanotrasen
+  groupBy: "cardbox"
+
+- type: loadout
+  id: CardBoxSyndicate
+  storage:
+    back:
+    - CardBoxSyndicate
+  groupBy: "cardbox"
+
+- type: loadout
+  id: CardBoxBlack
+  storage:
+    back:
+    - CardBoxBlack
+  groupBy: "cardbox"
+
+- type: loadout
+  id: TennisBall
+  storage:
+    back:
+    - TennisBall
+  groupBy: "Other Toys"
+
+- type: loadout
+  id: BeachBall
+  storage:
+    back:
+    - BeachBall
+  groupBy: "Other Toys"
+
+- type: loadout
+  id: PlushieSharkGrey
+  storage:
+    back:
+    - PlushieSharkGrey
+  groupBy: "Plushies"
+
+- type: loadout
+  id: PlushieSharkPink
+  storage:
+    back:
+    - PlushieSharkPink
+  groupBy: "Plushies"
+
+- type: loadout
+  id: PlushieSharkBlue
+  storage:
+    back:
+    - PlushieSharkBlue
+  groupBy: "Plushies"
+
+- type: loadout
+  id: WristwatchGold
+  storage:
+    back:
+    - WristwatchGold

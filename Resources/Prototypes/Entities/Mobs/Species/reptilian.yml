@@ -33,7 +33,7 @@
   - type: Speech
     speechSounds: Lizard
     speechVerb: Reptilian
-    allowedEmotes: ['Thump', 'Hiss'] # Impstation
+    allowedEmotes: ['Thump', 'Hiss', 'Purr'] # Euphoria - added purring
   - type: TypingIndicator
     proto: lizard
   - type: Vocal
@@ -108,7 +108,7 @@
           32:
             sprite: Mobs/Species/Reptilian/displacement.rsi
             state: mask
-  - type: FootPrints # DeltaV port from EE, blood splatter
+  - type: FootPrints # Floofstation - delta-v removed these, we're keeping them
     leftBarePrint: "footprint-left-bare-lizard"
     rightBarePrint: "footprint-right-bare-lizard"
   - type: Tag # Floofstation

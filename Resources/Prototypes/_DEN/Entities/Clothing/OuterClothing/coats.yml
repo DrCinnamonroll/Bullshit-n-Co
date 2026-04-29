@@ -1,55 +1,10 @@
-
 - type: entity
-  parent: [ClothingOuterCoatMantis, BaseFoldable]
-  id: ClothingOuterCoatMantisAiry
-  name: airy mantis sash
-  description: "A colorful sash with swinging tassles. You can wear it over either shoulder."
+  parent: [ClothingOuterArmorCaptainCarapace, ClothingOuterStorageBase]
+  id: ClothingOuterCoatCapTrench
+  name: captain's armored trenchcoat
+  description: A greatcoat enhanced with a special alloy for some extra protection and style for those with a commanding presence, outfitted with emblems and decor befitting its wearer. Issued only to the station's finest.
   components:
   - type: Sprite
-    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_airy.rsi
-    layers:
-    - state: icon
-      map: ["unfoldedLayer"]
-    - state: icon-flipped
-      map: ["foldedLayer"]
-      visible: false
+    sprite: _DEN/Clothing/OuterClothing/Coats/cap_trenchcoat.rsi
   - type: Clothing
-    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_airy.rsi
-  - type: Foldable
-    canFoldInsideContainer: true
-    foldVerbText: fold-flip-verb
-    unfoldVerbText: fold-flip-verb
-  - type: FoldableClothing
-    foldedEquippedPrefix: flipped
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.8
-        Cold: 0.4
-        Holy: 0.2
-        Shadow: 0.3
-        Asphyxiation: 0.4
-
-- type: entity
-  parent: ClothingOuterCoatMantis
-  id: ClothingOuterCoatMantisOrnate
-  name: ornate mantis waistplate # It's outerwear by design, not a belt
-  description: "A reinforced wrap fitted with a heavy Greek psi, built to protect your middle."
-  components:
-  - type: Sprite
-    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_ornate.rsi
-  - type: Clothing
-    sprite: _DEN/Clothing/OuterClothing/Coats/mantis_jacket_ornate.rsi
-  - type: Armor
-    modifiers:
-      coefficients:
-        Blunt: 0.7
-        Slash: 0.7
-        Piercing: 0.8
-        Cold: 0.4
-        Holy: 0.2
-        Shadow: 0.3
-        Asphyxiation: 0.4
-
+    sprite: _DEN/Clothing/OuterClothing/Coats/cap_trenchcoat.rsi

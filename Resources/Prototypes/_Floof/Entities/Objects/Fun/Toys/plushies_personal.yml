@@ -19,11 +19,26 @@
     state: slime
   - type: UseDelay
     delay: 3.0
+  - type: EmitSoundOnUse
+    sound: &slimeSquish
+      path: /Audio/Voice/Slime/slime_squish.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound: *slimeSquish
+  - type: EmitSoundOnCollide
+    sound: *slimeSquish
   - type: EmitSoundOnActivate
     sound:
       path: /Audio/Voice/Human/female_sigh.ogg
       params:
         volume: 1
+  - type: MeleeWeapon
+    soundHit: &slimeLaugh
+      path: /Audio/_Floof/Voice/Slime/slime_laugh_f1.ogg
+      params:
+        variation: 0.20
+        volume: 4
 
 - type: entity
   parent: PlushieHuman
@@ -159,7 +174,7 @@
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnUse
-    sound:
+    sound: &avaliSpeak
       path: /Audio/_Floof/Voice/Avali/avali_1.ogg
       params:
         volume: 1
@@ -169,16 +184,9 @@
   - type: EmitSoundOnCollide
     sound: *landAvali
   - type: EmitSoundOnActivate
-    sound:
-      path: /Audio/_Floof/Voice/Avali/avali_1.ogg
-      params:
-        volume: 1
+    sound: *avaliSpeak
   - type: MeleeWeapon
-    soundHit:
-      path: /Audio/_Floof/Voice/Avali/avali_scream.ogg
-      params:
-        variation: 0.05
-        volume: 4
+    soundHit: *landAvali
 
 - type: entity
   parent: PlushieHuman
@@ -191,6 +199,20 @@
     state: slimebartender
   - type: UseDelay
     delay: 1.0
+  - type: EmitSoundOnUse
+    sound: &slimePop
+      path: /Audio/_Floof/Voice/Slime/s_pop.ogg
+      params:
+        volume: 2
+        variation: 0.05
+  - type: EmitSoundOnLand
+    sound: *slimeLaugh
+  - type: EmitSoundOnActivate
+    sound: *slimePop
+  - type: MeleeWeapon
+    soundHit: *slimeLaugh
+  - type: EmitSoundOnCollide
+    sound: *slimeLaugh
 
 - type: entity
   parent: PlushieHuman
@@ -370,26 +392,18 @@
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnUse
-    sound:
-      path: /Audio/_Floof/Voice/Avali/avali_1.ogg
-      params:
-        volume: 1
+    sound: *avaliSpeak
   - type: EmitSoundOnLand
-    sound: &landResomi
-      path: /Audio/_Floof/Voice/Avali/avali_scream.ogg
+    sound: *landAvali
   - type: EmitSoundOnCollide
-    sound: *landResomi
+    sound: *landAvali
   - type: EmitSoundOnActivate
     sound:
-      path: /Audio/_Floof/Voice/Avali/avali_1.ogg
+      path: /Audio/_RMC14/Voice/Avali/avali_laugh.ogg
       params:
         volume: 1
   - type: MeleeWeapon
-    soundHit:
-      path: /Audio/_Floof/Voice/Avali/avali_scream.ogg
-      params:
-        variation: 0.05
-        volume: 4
+    soundHit: *landAvali
 
 
 - type: entity
@@ -534,6 +548,10 @@
     sound: *yap
   - type: EmitSoundOnCollide
     sound: *yap
+  - type: EmitSoundOnLand
+    sound: *yap
+  - type: MeleeWeapon
+    soundHit: *yap
 
 - type: entity
   parent: PlushieHuman
@@ -579,6 +597,20 @@
     state: eldrichcap
   - type: UseDelay
     delay: 3.0
+  - type: EmitSoundOnUse
+    sound: &shadekinMar
+      path: /Audio/_Floof/Voice/Shadowkin/mar.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnLand
+    sound: &slimeScreamM
+      path: /Audio/_Floof/Voice/Slime/slime_scream_m1.ogg
+  - type: EmitSoundOnActivate
+    sound: *shadekinMar
+  - type: MeleeWeapon
+    soundHit: *slimeScreamM
+  - type: EmitSoundOnCollide
+    sound: *slimeScreamM
 
 - type: entity
   parent: PlushieHuman
@@ -658,15 +690,19 @@
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
-    sound:
+    sound: &toySqueak
       path: /Audio/Items/Toys/toysqueak1.ogg
       params:
         volume: 2
   - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Items/Toys/toysqueak1.ogg
-      params:
-        volume: 2
+    sound: *toySqueak
+  - type: EmitSoundOnLand
+    sound: &vulpScream
+      path: /Audio/_Floof/Voice/Vulpkanin/vulpscream2.ogg
+  - type: MeleeWeapon
+    soundHit: *vulpScream
+  - type: EmitSoundOnCollide
+    sound: *vulpScream
 
 - type: entity
   parent: PlushieHuman
@@ -713,15 +749,18 @@
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
-    sound:
+    sound: &metalBreak
       path: /Audio/Effects/metal_break3.ogg
       params:
         volume: 2
   - type: EmitSoundOnUse
-    sound:
-      path: /Audio/Effects/metal_break3.ogg
-      params:
-        volume: 2
+    sound: *metalBreak
+  - type: EmitSoundOnLand
+    sound: *slimeSquish
+  - type: MeleeWeapon
+    soundHit: *slimeSquish
+  - type: EmitSoundOnCollide
+    sound: *slimeSquish
 
 - type: entity
   parent: PlushieHuman
@@ -1038,6 +1077,13 @@
       params:
         variation: 0.05
         volume: 4
+  - type: EmitSoundOnActivate
+    sound: &diskDrop
+      path: /Audio/_EE/Items/Handling/disk_drop.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound: *diskDrop
 
 - type: entity
   parent: BasePlushie
@@ -1389,10 +1435,7 @@
   - type: UseDelay
     delay: 3.0
   - type: EmitSoundOnActivate
-    sound: &toySqueak
-      path: /Audio/Items/Toys/toysqueak1.ogg
-      params:
-        variation: 0.05
+    sound: *toySqueak
   - type: EmitSoundOnUse
     sound: *toySqueak
   - type: EmitSoundOnLand
@@ -1618,7 +1661,7 @@
 
 - type: entity
   parent: PlushieHuman
-  id: PlushieMailTech 
+  id: PlushieMailTech
   name: Mail tech plushie
   description: Cargo's strongest soldiers, for when Delivery Must Complete. #the text is a refrence and its intended to be like that
   components:
@@ -1643,3 +1686,170 @@
     sound: *hit_kick
   - type: MeleeWeapon
     soundHit: *hit_kick
+
+- type: entity
+  parent: PlushieExperiment
+  id: PlushieFlick #yip!
+  name: cybersun engineer plushie
+  description: Each plushie is given its soul by pressing it to a supermatter sliver, if you listen closely you can hear yourself getting cancer in real-time!
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/flickplushie.rsi
+    state: icon
+  - type: Item
+    sprite: _Floof/Objects/Fun/flickplushie.rsi
+    inhandVisuals:
+      left:
+      - state: inhand-left
+        shader: shaded
+      right:
+      - state: inhand-right
+        shader: shaded
+    heldPrefix: plushielizard
+  - type: Clothing
+    clothingVisuals:
+      head:
+      - state: equipped-HELMET
+        shader: shaded
+    quickEquip: false
+    sprite: Objects/Fun/toys.rsi
+    equippedPrefix: flick
+    slots:
+    - HEAD
+
+- type: entity
+  parent: PlushieHuman
+  id: PlushieDevil
+  name: Devil plushie
+  description: A Devil Plushie of a hellish half-wolf with fire within it's fur. The crackling of flame can be heard around it. It's rather warm!
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: devil
+  - type: UseDelay
+    delay: 5
+  - type: EmitSoundOnActivate
+    sound: &howl
+      path: /Audio/_DV/Voice/Vulpkanin/howl.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound: *howl
+  - type: EmitSoundOnLand
+    sound: &dog_snarl1
+      path: /Audio/Voice/Vulpkanin/dog_snarl1.ogg
+      params:
+        variation: 0.05
+  - type: EmitSoundOnCollide
+    sound: *dog_snarl1
+  - type: MeleeWeapon
+    soundHit: /Audio/_Floof/Voice/Vulpkanin/gekker.ogg
+  - type: AmbientSound
+    range: 2
+    sound: &fireplace
+      path: /Audio/Ambience/Objects/fireplace.ogg
+      params:
+        volume: -18
+  - type: PointLight
+    color: '#CD8014FF'
+    radius: 1.8
+    energy: 0.75
+  - type: EmitSoundOnThrow
+    sound: /Audio/_Floof/Voice/Vulpkanin/vulpscream2.ogg
+  - type: EmitSoundOnSpawn
+    positional: True
+    sound: &devil_start
+      path: /Audio/_Goobstation/Ambience/Antag/devil_start.ogg
+      params:
+        volume: 1
+        maxDistance: 8
+
+- type: entity
+  parent: PlushieHuman
+  id: PlushieSatori
+  name: Soft squishy satori plushie
+  description: A plushie depicting a cuddly satori girl. The third eye tendril is painstakingly sewn on. This one is dressed in a dependable corpsman's outfit.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: satori
+  - type: UseDelay
+    delay: 2.0
+  - type: EmitSoundOnActivate
+    sound: &toysqueak2
+      path: /Audio/Items/Toys/toysqueak2.ogg
+      params:
+        volume: 2
+  - type: EmitSoundOnUse
+    sound: *toysqueak2
+  - type: EmitSoundOnLand
+    sound: &toysqueakB
+      path: /Audio/Items/Toys/toysqueak2.ogg
+      params:
+        variation: 0.05
+  - type: EmitSoundOnCollide
+    sound: *toysqueakB
+  - type: MeleeWeapon
+    soundHit: *toysqueakB
+
+- type: entity
+  parent: BasePlushie
+  id: RedlizardPlushie
+  name: red lizard plushie
+  description: It's small, red, and adorable! Complete with small frills, and big black eyes.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/redlizardplushie.rsi
+    state: icon
+  - type: Clothing
+    quickEquip: false
+    sprite: _Floof/Objects/Fun/redlizardplushie.rsi
+    slots:
+    - HEAD
+  - type: EmitSoundOnUse
+    sound:
+      path: /Audio/_Floof/Voice/Reptilian/yip.ogg
+      params:
+        volume: 1
+  - type: EmitSoundOnLand
+    sound: &landRL
+      path: /Audio/Nyanotrasen/Voice/Felinid/cat_purr1.ogg
+      params:
+        volume: 2
+        variation: 0.1
+  - type: EmitSoundOnCollide
+    sound: *landRL
+  - type: EmitSoundOnActivate
+    sound:
+      path: /Audio/_Floof/Voice/Reptilian/yip.ogg
+      params:
+        volume: 1
+  - type: MeleeWeapon
+    soundHit:
+      path: /Audio/Voice/Reptilian/reptilian_scream.ogg
+      params:
+        variation: 0.1
+        volume: 4
+
+- type: entity
+  parent: PlushieHuman
+  id: PlushieNonjudgmentalDemon
+  name: nonjudgmental demon plushie
+  description: Unfortunately, this one can't handle your paperwork for you.
+  components:
+  - type: Sprite
+    sprite: _Floof/Objects/Fun/floof_plush.rsi
+    state: nonjudgmentaldemon
+  - type: UseDelay
+    delay: 4.5
+  - type: EmitSoundOnActivate
+    sound: &printer
+      path: /Audio/Machines/printer.ogg
+  - type: EmitSoundOnUse
+    sound: *printer
+  - type: EmitSoundOnLand
+    sound: *printer
+  - type: EmitSoundOnCollide
+    sound: *printer
+  - type: MeleeWeapon
+    soundHit: *printer

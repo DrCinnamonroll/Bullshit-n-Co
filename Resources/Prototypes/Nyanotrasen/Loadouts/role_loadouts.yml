@@ -67,6 +67,7 @@
   - PassengerFace # floofstation - give prisoners access to other clothing options
   - PrisonerJumpsuit
   - CommonBackpack
+  - PassengerNeck # Floofstation - let prisoners have neck options
   - PassengerGloves # floofstation - give prisoners access to other clothing options
   - PassengerShoes
   - PassengerOuterClothing # floofstation - give prisoners access to other clothing options
@@ -79,10 +80,16 @@
   parent: JobBaseLoadout # Floofstation
   groups:
   - GroupTankHarness
+  - AssistantHead # Floofstation
+  - PassengerNeck # Floofstation
+  - PassengerFace # Floofstation
   - MartialArtistJumpsuit
+  - PassengerGloves # Floofstation
   - MartialArtistBelt
+  - FloofMartialArtistPDAs # Floofstation - pda customization
   - MartialArtistShoes
   - BoxerGloves
+  - PassengerOuterClothing # Floofstation
   - CommonBackpack
   - Glasses # DeltaV
   - Survival
@@ -93,7 +100,13 @@
   parent: JobBaseLoadout # Floofstation
   groups:
   - GroupTankHarness
+  - AssistantHead # Floofstation
+  - PassengerNeck # Floofstation
+  - PassengerFace # Floofstation
   - GladiatorJumpsuit
+  - PassengerGloves # Floofstation
+  - FloofGladiatorPDAs # Floofstation - pda customization
+  - PassengerShoes # Floofstation
   - CommonBackpack
   - GladiatorOuterClothing
   - Glasses # DeltaV
