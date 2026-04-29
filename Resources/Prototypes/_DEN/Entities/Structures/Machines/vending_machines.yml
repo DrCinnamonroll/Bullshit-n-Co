@@ -51,7 +51,7 @@
     flavorKind: station-event-random-sentience-flavor-mechanical
     weight: 0.25 # It's plugged into the noosphere, come on
   - type: TypingIndicator
-    proto: mantis
+    proto: robot
   - type: Speech
     speechVerb: Electricity
     speechSounds: Tenor
