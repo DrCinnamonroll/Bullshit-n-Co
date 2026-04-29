@@ -7,7 +7,6 @@
   startingInventory:
     # Spare locker items, just the basics in case a second mantis is hired
     ClothingNeckMantisPendulum: 1
-    BoxFolderMantis: 1
     # Extra loadout items, maybe the chaplain wants some candles
     FlippoLighterMantis: 1
     CigPackMnemolith: 3
@@ -22,7 +21,6 @@
     # Extra loadout clothing, so people can experiment with looks
     ClothingHeadsetMantis: 1
     ClothingHeadsetAltMantis: 1
-    ClothingEyesHudEpistemicsMantis: 1
     ClothingBackpackMantis: 1
     ClothingBackpackDuffelMantis: 1
     ClothingBackpackSatchelMantis: 1
