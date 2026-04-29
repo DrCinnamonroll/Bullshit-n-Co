@@ -4,7 +4,7 @@
 # SPDX-License-Identifier: AGPL-3.0-or-later
 
 - type: entity
-  parent: [ClothingHandsBase,BaseFoldable, BaseAntiPsionicWeapon, BaseMantisContraband]
+  parent: [ClothingHandsBase, BaseFoldable, BaseAntiPsionicWeapon, BaseMantisContraband]
   id: MantisMeleeFist
   name: manifold
   description: "A heavy mnemolith gauntlet designed for control rather than sheer lethality, capable of hurling foes back and, at times, deflecting incoming fire. Said to take its name from its capacity for folding men, and its clever design allows it to be worn on either hand. Deadly when wielded against psionic and otherworldly threats."
@@ -30,7 +30,7 @@
   - type: MeleeWeapon
     damage:
       types:
-        Blunt: 12
+        Blunt: 15
         Holy: 6
         Structural: 7.5 # 5 structural DPS
     bluntStaminaDamageFactor: 1.25 # Stuns in 6 hits (which takes 6 seconds)
@@ -40,7 +40,7 @@
   - type: DamageOtherOnHit
     damage:
       types:
-        Blunt: 12 # 12 DPS, or 15 DPS against psions (same as CombatKnife)
+        Blunt: 15 # 12 DPS, or 15 DPS against psions (same as CombatKnife)
         Holy: 6 # 22.5 total DPS against psionic supernaturals
         Structural: 7.5 # 5 structural DPS
     soundHit:
@@ -50,9 +50,9 @@
     animation: WeaponArcFist
     wideAnimation: WeaponArcSmash
     mustBeEquippedToUse: true
-  - type: MeleeThrowOnHit # They fly about six tiles and don't take extra impact damage when hitting walls
+  - type: MeleeThrowOnHit
     speed: 10
-    distance: 0.75
+    distance: 1.75
   - type: Reflect
     reflectProb: .2
     spread: 135

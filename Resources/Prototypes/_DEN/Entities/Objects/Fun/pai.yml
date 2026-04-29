@@ -16,9 +16,9 @@
       shader: unshaded
       map: ["screen"]
   - type: TypingIndicator
-    proto: mantis
+    proto: robot
   - type: Speech
-    speechVerb: Electricity
+    speechVerb: Robotic
     speechSounds: Pai
   - type: GenericVisualizer
     visuals:

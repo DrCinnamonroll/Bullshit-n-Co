@@ -59,7 +59,7 @@
   equipment:
     shoes: ClothingShoesSandalsMantisOrnate
 
-# back packs
+# backpacks
 
 - type: loadout
   id: ClothingBackpackMantis
@@ -209,3 +209,173 @@
   id: ClothingHeadsetAltMantis
   equipment:
     headSet: ClothingHeadsetAltMantis
+
+# Trinkets
+
+- type: loadout
+  id: PlushieDollMantis
+  storage:
+    back:
+    - PlushieDollMantis
+
+- type: loadout
+  id: PersonalAISomber
+  storage:
+    back:
+    - PersonalAISomber
+
+- type: loadout
+  id: CigPackMnemolith
+  equipment:
+    pocket2: CigPackMnemolith
+
+- type: loadout
+  id: FlippoLighterMantis
+  equipment:
+    pocket1: FlippoLighterMantis
+
+- type: loadout
+  id: ClothingNeckMantisPendulum
+  storage:
+    back:
+    - ClothingNeckMantisPendulum
+
+- type: loadout
+  id: MantisTailorsKnife
+  storage:
+    back:
+    - MantisTailorsKnife
+
+# Cases
+
+- type: loadout
+  id: MantisCase
+  storage:
+    back:
+    - MantisCase
+
+- type: loadout
+  id: MantisCaseSmall
+  storage:
+    back:
+    - MantisCaseSmall
+
+- type: loadout
+  id: MantisCaseLarge
+  storage:
+    back:
+    - MantisCaseLarge
+
+- type: loadout
+  id: MantisCaseExtraLarge
+  storage:
+    back:
+    - MantisCaseExtraLarge
+
+- type: loadout
+  id: MantisCaseTools
+  storage:
+    back:
+    - MantisCaseTools
+
+- type: loadout
+  id: MantisCaseChemicals
+  storage:
+    back:
+    - MantisCaseChemicals
+
+- type: loadout
+  id: MantisCaseCandles
+  storage:
+    back:
+    - MantisCaseCandles
+
+- type: loadout
+  id: MantisCaseRestraints
+  storage:
+    back:
+    - MantisCaseRestraints
+
+# Melee
+
+- type: loadout
+  id: MantisMeleeKnife
+  storage:
+    back:
+    - MantisMeleeKnife
+
+- type: loadout
+  id: MantisMeleeSickle
+  storage:
+    back:
+    - MantisMeleeSickle
+
+- type: loadout
+  id: MantisMeleeCane
+  storage:
+    back:
+    - MantisMeleeCane
+
+- type: loadout
+  id: MantisMeleeFist
+  storage:
+    back:
+    - MantisMeleeFist
+
+- type: loadout
+  id: MantisMeleeGreatswordSheathFilled
+  storage:
+    suitStorage:
+    - MantisMeleeGreatswordSheathFilled
+
+# Ranged
+
+- type: loadout
+  id: MantisRangedPistol
+  storage:
+    back:
+    - MantisRangedPistol
+
+- type: loadout
+  id: MantisRangedRevolver
+  storage:
+    back:
+    - MantisRangedRevolver
+
+- type: loadout
+  id: MantisRangedShotgun
+  storage:
+    back:
+    - MantisRangedShotgun
+
+- type: loadout
+  id: MantisRangedSubMachineGun
+  storage:
+    back:
+    - MantisRangedSubMachineGun
+
+# Casters
+
+- type: loadout
+  id: MantisCasterPistolCapgun
+  storage:
+    back:
+    - MantisCasterPistolCapgun
+
+- type: loadout
+  id: MantisCasterSubMachineGunCapgun
+  storage:
+    back:
+    - MantisCasterSubMachineGunCapgun
+
+- type: loadout
+  id: MantisCasterRevolverCapgun
+  storage:
+    back:
+    - MantisCasterRevolverCapgun
+
+- type: loadout
+  id: MantisCasterShotgunCapgun
+  storage:
+    back:
+    - MantisCasterShotgunCapgun

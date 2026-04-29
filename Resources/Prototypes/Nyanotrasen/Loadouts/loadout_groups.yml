@@ -95,6 +95,7 @@
   - ClothingHandsGlovesMantisOrnate
   #Den Mantis end
 
+# Den Mantis Loadouts start
 - type: loadoutGroup
   id: MantisBackpack
   parent: [ScientistBackpack]
@@ -117,6 +118,8 @@
 - type: loadoutGroup
   id: MantisEyes
   name: Mantis eyes
+  minLimit: 0
+  maxLimit: 1
   loadouts:
   - ClothingEyesGlassesEpistemicsMantis
   - ClothingEyesGlassesEpistemicsMantisTinted
@@ -126,6 +129,8 @@
 - type: loadoutGroup
   id: MantisMasks
   name: Mantis masks
+  minLimit: 0
+  maxLimit: 1
   loadouts:
   - ClothingMaskMantisVeil
   - ClothingMaskMantisRitual
@@ -133,6 +138,8 @@
 - type: loadoutGroup
   id: MantisNeck
   name: Mantis neck
+  minLimit: 0
+  maxLimit: 1
   loadouts:
   - ClothingNeckCloakMantisDark
   - ClothingNeckMantleMantisOrnate
@@ -144,6 +151,69 @@
   loadouts:
   - ClothingHeadsetMantis
   - ClothingHeadsetAltMantis
+
+- type: loadoutGroup
+  id: MantisTrinkets
+  name: Mantis trinkets
+  minLimit: 0
+  maxLimit: 6
+  loadouts:
+  - PlushieDollMantis
+  - PersonalAISomber
+  - CigPackMnemolith
+  - FlippoLighterMantis
+  - ClothingNeckMantisPendulum
+  - MantisTailorsKnife
+
+- type: loadoutGroup
+  id: MantisCases
+  name: Mantis cases
+  minLimit: 0
+  maxLimit: 8
+  loadouts:
+  - MantisCase
+  - MantisCaseSmall
+  - MantisCaseLarge
+  - MantisCaseExtraLarge
+  - MantisCaseTools
+  - MantisCaseChemicals
+  - MantisCaseCandles
+  - MantisCaseRestraints
+
+- type: loadoutGroup
+  id: MantisMelee
+  name: Mantis melee weapons
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - MantisMeleeKnife
+  - MantisMeleeSickle
+  - MantisMeleeCane
+  - MantisMeleeFist
+  - MantisMeleeGreatswordSheathFilled
+
+- type: loadoutGroup
+  id: MantisRanged
+  name: Mantis ranged weapons
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - MantisRangedPistol
+  - MantisRangedRevolver
+  - MantisRangedShotgun
+  - MantisRangedSubMachineGun
+
+- type: loadoutGroup
+  id: MantisCasters
+  name: Mantis casters
+  minLimit: 0
+  maxLimit: 1
+  loadouts:
+  - MantisCasterPistolCapgun
+  - MantisCasterSubMachineGunCapgun
+  - MantisCasterRevolverCapgun
+  - MantisCasterShotgunCapgun
+    # Den Mantis Loadouts end
 
 # Security
 ## Prison Guard
