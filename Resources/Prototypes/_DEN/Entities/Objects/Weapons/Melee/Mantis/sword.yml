@@ -18,7 +18,6 @@
     punishSelfDamage: 35 # It hits you as hard as you would've hit a psion, because you're psionic
     punishStunDuration: 5 # And it stuns you like a noospheric storm
   - type: MeleeRequiresWield
-    fumbleOnAttempt: true # It'll also stun you if you try to swing it one-handed
   - type: Wieldable
     wieldSound:
       path: /Audio/_DEN/Weapons/Melee/faustwield.ogg
@@ -34,10 +33,6 @@
     attackRate: 1.5
     range: 1.85
     angle: 90
-    maxTargets: 10 # When you see a stat that looks good, just remember that if you hit anything non-psionic, you lose
-    heavyRateModifier: 1 # Same speed
-    heavyRangeModifier: 1 # Same range
-    heavyDamageBaseModifier: 1 # Same damage
     damage:
       types:
         Slash: 28 # 18.66 DPS (same as CaptainSabre), or 23.33 DPS against psions (but if you miss, it hits you hard)
