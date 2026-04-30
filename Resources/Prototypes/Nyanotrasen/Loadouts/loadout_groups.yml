@@ -99,7 +99,7 @@
 - type: loadoutGroup
   id: MantisBackpack
   parent: [ScientistBackpack]
-  name: Mantis backpacks
+  name: loadout-group-mantis-back
   loadouts:
   - ClothingBackpackMantis
   - ClothingBackpackDuffelMantis
@@ -109,7 +109,7 @@
 
 - type: loadoutGroup
   id: MantisBelt
-  name: Mantis belts
+  name: loadout-group-mantis-belts
   loadouts:
   - ClothingBeltMantisAiry
   - ClothingBeltMantisDark
@@ -117,7 +117,7 @@
 
 - type: loadoutGroup
   id: MantisEyes
-  name: Mantis eyes
+  name: loadout-group-mantis-eyes
   minLimit: 0
   maxLimit: 1
   loadouts:
@@ -128,7 +128,7 @@
 
 - type: loadoutGroup
   id: MantisMasks
-  name: Mantis masks
+  name: loadout-group-mantis-masks
   minLimit: 0
   maxLimit: 1
   loadouts:
@@ -137,7 +137,7 @@
 
 - type: loadoutGroup
   id: MantisNeck
-  name: Mantis neck
+  name: loadout-group-mantis-neck
   minLimit: 0
   maxLimit: 1
   loadouts:
@@ -147,14 +147,14 @@
 
 - type: loadoutGroup
   id: MantisHeadSets
-  name: Mantis headsets
+  name: loadout-group-mantis-headsets
   loadouts:
   - ClothingHeadsetMantis
   - ClothingHeadsetAltMantis
 
 - type: loadoutGroup
   id: MantisTrinkets
-  name: Mantis trinkets
+  name: loadout-group-mantis-trinkets
   minLimit: 0
   maxLimit: 6
   loadouts:
@@ -167,7 +167,7 @@
 
 - type: loadoutGroup
   id: MantisCases
-  name: Mantis cases
+  name: loadout-group-mantis-cases
   minLimit: 0
   maxLimit: 8
   loadouts:
@@ -183,7 +183,7 @@
 
 - type: loadoutGroup
   id: MantisMelee
-  name: Mantis melee weapons
+  name: loadout-group-mantis-melee
   minLimit: 0
   maxLimit: 1
   loadouts:
@@ -195,7 +195,7 @@
 
 - type: loadoutGroup
   id: MantisRanged
-  name: Mantis ranged weapons
+  name: loadout-group-mantis-ranged
   minLimit: 0
   maxLimit: 1
   loadouts:
@@ -205,7 +205,7 @@
   - MantisRangedSubMachineGun
 
 - type: loadoutGroup
-  id: MantisCasters
+  id: loadout-group-mantis-casters
   name: Mantis casters
   minLimit: 0
   maxLimit: 1

@@ -34,7 +34,7 @@
       behaviors:
       - !type:PlaySoundBehavior
         sound:
-          path: /Audio/_Goobstation/Items/Handling/cloth_drop.ogg
+          path: /Audio/_Goobstation/Items/handling/cloth_drop.ogg
       - !type:SpawnEntitiesBehavior
         spawn:
           MaterialCloth:
@@ -213,8 +213,8 @@
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/lounge_chair.rsi
-  - type: Construction
-    graph: ChairBeachLounge
+  #- type: Construction
+    #graph: ChairBeachLounge
 
 - type: entity
   parent: BaseChairBeachLounge
