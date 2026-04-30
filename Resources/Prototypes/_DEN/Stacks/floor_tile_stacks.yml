@@ -234,8 +234,8 @@
   itemSize: 5
 
 - type: stack
-  id: stack-wood-chess
-  name: somber wood floor (chess)
+  id: FloorTileSomberWoodChess
+  name: stack-wood-chess
   spawn: FloorTileItemSomberWoodChess
   maxCount: 30
   itemSize: 5
