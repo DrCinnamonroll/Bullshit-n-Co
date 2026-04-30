@@ -213,8 +213,8 @@
   components:
   - type: Sprite
     sprite: _DEN/Structures/Furniture/lounge_chair.rsi
-  #- type: Construction
-    #graph: ChairBeachLounge
+  - type: Construction
+    graph: ChairBeachLounge
 
 - type: entity
   parent: BaseChairBeachLounge

@@ -4,7 +4,7 @@
 
 - type: stack
   id: FloorTileSomberSteel
-  name: stack-steel-tile
+  name: somber-steel-tile
   spawn: FloorTileItemSomberSteel
   maxCount: 30
   itemSize: 5
@@ -53,7 +53,7 @@
 
 - type: stack
   id: FloorTileSomberSteelHerringbone
-  name: stack-steel-herringbone
+  name: somber-steel-herringbone
   spawn: FloorTileItemSomberSteelHerringbone
   maxCount: 30
   itemSize: 5
@@ -88,7 +88,7 @@
 
 - type: stack
   id: FloorTileSomberSteelPavement
-  name: stack-steel-pavement
+  name: somber-steel-pavement
   spawn: FloorTileItemSomberSteelPavement
   maxCount: 30
   itemSize: 5
@@ -137,7 +137,7 @@
 
 - type: stack
   id: FloorTileSomberWood
-  name: stack-wood-floor
+  name: somber-wood-floor
   spawn: FloorTileItemSomberWood
   maxCount: 30
   itemSize: 5
