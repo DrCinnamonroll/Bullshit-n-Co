@@ -80,7 +80,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 7
+    #levels: 7
   - type: BatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 10 # Can fire 12 times, takes 2.5 seconds to recharge 1 shot
@@ -103,7 +103,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 6
+    #levels: 6
   - type: BatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 20 # Can fire 6 times, takes 5 seconds to recharge 1 shot
@@ -128,7 +128,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 5
+    #levels: 5
   - type: BatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 24 # Can fire 5 times, takes 6 seconds to recharge 1 shot
@@ -153,7 +153,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 8
+    #levels: 8
   - type: BatteryAmmoProvider
     proto: BulletMantisCapgun
     fireCost: 5 # Can fire 24 times, takes 1.25 seconds to recharge 1 shot
@@ -229,7 +229,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 7
+    #levels: 7
   - type: BatteryAmmoProvider
     proto: BulletMantisLethal
     fireCost: 50 # Can fire 12 times, takes 5 seconds to recharge 1 shot
@@ -253,7 +253,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 6
+    #levels: 6
   - type: BatteryAmmoProvider
     proto: BulletMantisLethalRevolver
     fireCost: 100 # Can fire 6 times, takes 10 seconds to recharge 1 shot
@@ -279,7 +279,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 5
+    #levels: 5
   - type: BatteryAmmoProvider
     proto: BulletMantisLethalSpread
     fireCost: 120 # Can fire 5 times, takes 12 seconds to recharge 1 shot
@@ -305,7 +305,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: unshaded
   - type: PowerCell
-    levels: 8
+    #levels: 8
   - type: BatteryAmmoProvider
     proto: BulletMantisLethalSubMachineGun
     fireCost: 25 # Can fire 24 times, takes 2.5 seconds to recharge 1 shot
@@ -330,7 +330,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: shaded
   - type: PowerCell
-    levels: 7
+    #levels: 7
   - type: BatteryAmmoProvider
     fireCost: 10 # Can fire 12 times, takes 10 seconds to recharge 1 shot
   - type: Tag
@@ -353,7 +353,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: shaded
   - type: PowerCell
-    levels: 6
+    #levels: 6
   - type: BatteryAmmoProvider
     fireCost: 20 # Can fire 6 times, takes 20 seconds to recharge 1 shot
   - type: Item
@@ -378,7 +378,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: shaded
   - type: PowerCell
-    levels: 5
+    #levels: 5
   - type: BatteryAmmoProvider
     proto: BulletMantisCapgunSpread
     fireCost: 24 # Can fire 5 times, takes 24 seconds to recharge 1 shot
@@ -404,7 +404,7 @@
       map: [ "enum.PowerCellVisualLayers.Unshaded" ]
       shader: shaded
   - type: PowerCell
-    levels: 8
+    #levels: 8
   - type: BatteryAmmoProvider
     fireCost: 5 # Can fire 24 times, takes 5 seconds to recharge 1 shot
   - type: Tag
