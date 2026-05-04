@@ -55,8 +55,9 @@
         variation: 0.05
   - type: DamageOtherOnHit # Unfortunately, throwing Faust still lets it severely injure non-psions at no risk to its wielder
     damage:
-      Slash: 28
-      Holy: 20
+      types:
+        Slash: 28
+        Holy: 20
   - type: EmbeddableProjectile # But if you trip and it stabs you, that's your own fault
     sound:
       path: /Audio/_DEN/Weapons/Melee/fausthit.ogg
