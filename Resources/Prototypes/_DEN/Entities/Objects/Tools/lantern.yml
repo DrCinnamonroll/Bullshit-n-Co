@@ -27,7 +27,7 @@
     - type: Appearance
     - type: UseDelay
     - type: ToggleableVisuals
-      replaceMode: false
+      #replaceMode: false
       spriteLayer: light
       inhandVisuals:
         left:

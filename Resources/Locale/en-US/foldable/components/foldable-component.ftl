@@ -11,3 +11,7 @@ fold-flip-verb = Flip
 
 fold-zip-verb = Zip up
 fold-unzip-verb = Unzip
+
+# Jumpsuits
+fold-rollsleeves-verb = Roll sleeves up
+fold-unrollsleeves-verb = Roll sleeves down

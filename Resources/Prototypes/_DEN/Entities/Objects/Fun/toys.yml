@@ -26,7 +26,7 @@
     angle: -150
   - type: DamageOtherOnHit
     damage:
-      type:
+      types:
         Slash: 1
         Holy: 2 # SLASH DASH. This is so stupid. Each hit is only 1 damage and there will never be this many entities together
   - type: EmbeddableProjectile

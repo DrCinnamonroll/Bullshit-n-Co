@@ -235,4 +235,3 @@
   - type: Contraband
     severity: Restricted
     allowedDepartments: [ Epistemics ]
-    allowedJobs: [ Mantis ]

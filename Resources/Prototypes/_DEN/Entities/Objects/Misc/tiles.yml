@@ -24,7 +24,7 @@
     damage:
       types:
         Blunt: 9.5 # Heavier tiles hurt more, based on FloorTileItemSteel
-    staminaCost: 6
+    #staminaCost: 6
     soundHit:
       path: /Audio/Weapons/block_metal1.ogg
       params:
@@ -310,9 +310,9 @@
     damage:
       types:
         Blunt: 5.5 # Lighter tiles hurt less, based on FloorTileItemBase
-    staminaCost: 5
+    #staminaCost: 5
     soundHit:
-      collection: MetalThud
+      path: /Audio/Weapons/block_metal1.ogg
 
 - type: entity
   parent: FloorTileItemSomberWood
