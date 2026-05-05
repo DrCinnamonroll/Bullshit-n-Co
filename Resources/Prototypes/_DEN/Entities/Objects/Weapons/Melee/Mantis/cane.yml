@@ -24,7 +24,7 @@
       visible: false
   - type: Appearance
   - type: ToggleableVisuals
-    replaceMode: true
+    #replaceMode: true
     spriteLayer: icon-raised
     inhandVisuals:
       left:

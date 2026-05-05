@@ -35,8 +35,8 @@
     price: 25
   - type: PhysicalComposition
     materialComposition:
-      Mnemolith: 100
-      Cloth: 100
+      Mnemolith: 10
+      Cloth: 10
   - type: Tag
     tags:
     - Payload

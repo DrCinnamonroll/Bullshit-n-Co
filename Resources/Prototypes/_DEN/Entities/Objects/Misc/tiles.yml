@@ -306,13 +306,14 @@
       - FloorSomberWood
   - type: Stack
     stackType: FloorTileSomberWood
+  - soundHit:
+    path: /Audio/Weapons/block_metal1.ogg
   - type: DamageOtherOnHit
     damage:
       types:
         Blunt: 5.5 # Lighter tiles hurt less, based on FloorTileItemBase
     #staminaCost: 5
-    soundHit:
-      path: /Audio/Weapons/block_metal1.ogg
+
 
 - type: entity
   parent: FloorTileItemSomberWood

@@ -47,8 +47,7 @@
   - type: Battery
     maxCharge: 600 # These have 5x the maxCharge so that they take 30 seconds to refill in a cell recharger, and good luck doing that under fire
     startingCharge: 600 # The guns still fire as many times as usual, because lethal casters also have 5x the fireCost
-  - type: BatterySelfRecharger
-    autoRecharge: true # Takes 60 seconds to charge itself back to full, so it's useless for prolonged standoffs (use other weapons for those!)
+  - type: BatterySelfRecharger # Takes 60 seconds to charge itself back to full, so it's useless for prolonged standoffs (use other weapons for those!)
     autoRechargeRate: 10 # If this needs balanced, consider adding autoRechargePause and autoRechargePauseTime instead of just lowering it
 
 - type: entity

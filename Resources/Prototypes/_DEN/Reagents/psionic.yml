@@ -16,7 +16,7 @@
       effects:
       - !type:PopupMessage
         type: Local
-        effectProto: StatusEffectScrambled
+        #effectProto: StatusEffectScrambled
         messages:
           - "reagent-effect-mnemolith-1"
           - "reagent-effect-mnemolith-2"
@@ -45,7 +45,7 @@
           max: 14 # So taking 15u will give you 10 seconds of possibly scarier messages
       - !type:PopupMessage
         type: Local
-        effectProto: StatusEffectScrambled
+        #effectProto: StatusEffectScrambled
         messages:
           - "reagent-effect-mnemolith-overdose1"
           - "reagent-effect-mnemolith-overdose2"
@@ -75,7 +75,7 @@
           max: 29 # So taking 30u will give you 10 seconds of possibly scarier messages
       - !type:PopupMessage
         type: Local
-        effectProto: StatusEffectScrambled
+        #effectProto: StatusEffectScrambled
         messages:
           - "reagent-effect-mnemolith-megadose1"
           - "reagent-effect-mnemolith-megadose2"
@@ -105,7 +105,7 @@
           max: 44 # So taking 45u will give you 10 seconds of possibly scarier messages
       - !type:PopupMessage
         type: Local
-        effectProto: StatusEffectScrambled
+        #effectProto: StatusEffectScrambled
         messages:
           - "reagent-effect-mnemolith-heroicdose1"
           - "reagent-effect-mnemolith-heroicdose2"

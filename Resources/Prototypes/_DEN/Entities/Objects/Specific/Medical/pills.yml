@@ -25,8 +25,7 @@
     contents:
     - id: PillSpaceDrugs
       amount: 5
-  - type: GuideHelp
-    guides: [ Psionics ]
+
 
 - type: entity
   parent: PillCanisterMantis
@@ -45,8 +44,7 @@
     contents:
     - id: PillCryptobiolin
       amount: 10
-  - type: GuideHelp
-    guides: [ PsionicInsulation ]
+
 
 - type: entity
   parent: [PillCanisterMantis, BaseMantisContraband]
@@ -65,8 +63,7 @@
     contents:
     - id: PillMindbreakerToxin
       amount: 5
-  - type: GuideHelp
-    guides: [ Mindbreaking ]
+
 
 - type: entity # Not obtainable by players, unless we want to prevent them from making heartbreaker out of their roundstart mindbreaker in MantisCaseChemicals
   parent: [PillCanisterMantis, BaseMantisContraband]
@@ -85,8 +82,7 @@
     contents:
     - id: PillSoulbreakerToxin
       amount: 5
-  - type: GuideHelp
-    guides: [ Mindbreaking ]
+
 
 - type: entity
   name: pill
@@ -113,8 +109,7 @@
         reagents:
         - ReagentId: SoulbreakerToxin
           Quantity: 5
-  - type: GuideHelp
-    guides: [ Mindbreaking ]
+
 
 - type: entity
   parent: PillCanisterMantis
